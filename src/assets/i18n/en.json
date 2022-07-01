@@ -1,0 +1,37 @@
+{
+  "ROUTES": {
+    "": ""
+  },
+  "pages": {
+    "index": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "brabopak": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "claes-food-projects": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "dumortier": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "weidelco": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "contact": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    }
+  }
+}

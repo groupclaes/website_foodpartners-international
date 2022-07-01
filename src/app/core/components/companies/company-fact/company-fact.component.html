@@ -1,0 +1,10 @@
+<div class="container">
+  <h2 class="white-space-pre mt-4">
+    <i class="fal fa-fw {{ icon }}"></i>
+    {{ 'core.components.companies.company-fact.' + name + '.title' | translate }}
+  </h2>
+  <div>
+    <p *ngFor="let text of texts">{{text}}</p>
+    <ng-content select="[link]"></ng-content>
+  </div>
+</div>

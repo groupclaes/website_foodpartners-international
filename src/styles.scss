@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import './theme/theme.scss';
+
+.block {
+  display: block
+}
+
+.white-space-pre {
+  white-space: pre-line
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto
+}
+
+.ml-0 {
+  margin-left: 0 !important
+}
+
+.mt-0 {
+  margin-top: 0 !important
+}
+
+.mt-4 {
+  margin-top: 1rem !important
+}
+
+.mt-8 {
+  margin-top: 2rem
+}
+
+.mb-8 {
+  margin-bottom: 2rem
+}
+
+@media screen and (min-width: 60rem) {
+  .container {
+    max-width: 50rem
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .container {
+    max-width: 70rem
+  }
+}
+
+@media screen and (min-width: 120rem) {
+  .container {
+    max-width: 95rem
+  }
+}
+
+app-root {
+  main {
+    router-outlet~* {
+      display: block
+    }
+  }
+}

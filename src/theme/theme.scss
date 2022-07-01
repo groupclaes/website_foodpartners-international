@@ -1,0 +1,490 @@
+@import './theme-variables.scss';
+@import './theme-button.scss';
+
+@font-face {
+  font-family: Fedra;
+  src: url("/assets/webfonts/fedra-sans-medium.otf") format("opentype")
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0
+}
+
+p {
+  margin: 1rem auto
+}
+
+html {
+  font-family: 'Inconsolata',
+    monospace;
+  background-color: var(--background-color);
+  font-size: calc(14px + 6 * (100vw - 350px) / 1570);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(18px + 5 * (100vw - 1920px) / 580)
+  }
+}
+
+h1,
+.title_xxl {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: calc(26px + 42 * (100vw - 350px) / 1570);
+  line-height: 1.115;
+  // color: var(--primary-color);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(75px + 15 * (100vw - 1920px) / 580)
+  }
+}
+
+h2,
+.title_xl {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: calc(20px + 28 * (100vw - 350px) / 1570);
+  line-height: 1.1;
+  // color: var(--primary-color);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(50px + 15 * (100vw - 1920px) / 580)
+  }
+}
+
+h3,
+.title_l {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: calc(18px + 17 * (100vw - 350px) / 1570);
+  line-height: 1.085;
+  color: var(--secondary-color);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(35px + 10 * (100vw - 1920px) / 580)
+  }
+}
+
+h4,
+.title_m {
+  margin-top: .75rem;
+  margin-bottom: .5rem;
+  font-size: calc(16px + 8 * (100vw - 350px) / 1570);
+  line-height: 1.05;
+  color: var(--secondary-color);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(24px + 8 * (100vw - 1920px) / 580)
+  }
+}
+
+h5,
+.title_s {
+  margin-top: .375rem;
+  margin-bottom: .25rem;
+  font-size: calc(14px + 4 *(100vw - 350px) / 1570);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(18px + 5 * (100vw - 1920px) / 580)
+  }
+}
+
+h6,
+.title_xs {
+  font-size: calc(12px + 2 * (100vw - 350px) / 1570);
+
+  @media screen and (min-width: 1920px) {
+    font-size: calc(14px + 4 * (100vw - 1920px) / 580)
+  }
+}
+
+a:not(.button) {
+  color: var(--secondary-color);
+  text-decoration: underline;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--primary-color)
+  }
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Fedra', sans-serif;
+  letter-spacing: -.1rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fedra', sans-serif
+}
+
+p {
+  font-family: 'Lora', serif;
+  max-width: 67.14286vw;
+
+  @media screen and (min-width: 40em) {
+    max-width: 60vw
+  }
+
+  @media screen and (min-width: 60em) {
+    max-width: 52.85714vw
+  }
+
+  @media screen and (min-width: 80em) {
+    max-width: 42.85714vw
+  }
+}
+
+i {
+  font-family: 'Inconsolata', monospace
+}
+
+section {
+  padding: 7.25rem 0
+}
+
+section:nth-child(even) {
+  background-color: var(--background-color-primary-alt)
+}
+
+app-header {
+  position: relative;
+  z-index: 2;
+  background-color: var(--background-color);
+
+  header {
+    div.header_primary {
+      height: 8rem;
+      display: flex !important;
+      align-items: center;
+      padding-left: 1rem;
+
+      img {
+        max-width: calc(90vw - 1rem);
+        object-fit: contain;
+      }
+
+      nav {
+        display: none;
+        flex: 1 auto;
+        justify-content: right;
+
+        @media screen and (min-width: 640px) {
+          display: flex
+        }
+
+        a {
+          display: block;
+          padding: 0 1rem;
+          font-weight: bold;
+          font-size: 1.25rem;
+          text-decoration: none
+        }
+      }
+    }
+
+    div.header_secondary {
+      display: none;
+      height: 2.75rem;
+      line-height: 2.75rem;
+
+      @media screen and (min-width: 512px) {
+        display: block
+      }
+
+      nav {
+        flex: 1 auto;
+        display: flex;
+        justify-content: right;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0px;
+          height: 1px;
+          border-top: 1px solid #ddd
+        }
+
+        a {
+          display: block;
+          padding: 0 1rem;
+          color: var(--muted-color);
+          text-decoration: none;
+          border-top: 1px solid transparent;
+          position: relative;
+
+          &.active {
+            color: var(--secondary-color);
+            border-top-color: var(--secondary-color)
+          }
+
+          &:hover {
+            border-top-color: var(--primary-color)
+          }
+        }
+      }
+    }
+  }
+}
+
+app-footer {
+  padding: 7.375rem 0 4.75rem;
+
+  footer {
+    padding: 1rem 0;
+
+    .footer_primary {
+      padding-bottom: 4.75rem;
+      display: flex;
+      line-height: 1.625rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      @media screen and (max-width: 60rem) {
+        .footer__logo {
+          padding-bottom: 2rem;
+        }
+
+        .footer__logo,
+        .footer__location {
+          width: 100%
+        }
+
+        .footer__companies,
+        .footer__nav {
+          width: 50%;
+        }
+      }
+
+      @media screen and (min-width:60rem) {
+        justify-content: space-between;
+      }
+
+      .nav__first {
+        padding-bottom: 2rem
+      }
+
+      .nav__list {
+        list-style: none;
+
+        .nav__item {
+          margin-bottom: .5rem;
+
+          a {
+            color: inherit;
+
+            &:hover {
+              color: var(--primary-color)
+            }
+          }
+        }
+      }
+    }
+
+    .footer_secondary {
+      height: 1.25rem;
+      line-height: 1.25rem;
+      color: var(--secondary-color)
+    }
+  }
+}
+
+app-index {
+  app-index-sofindev .container {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      margin-bottom: 0.5rem
+    }
+  }
+
+  app-index-facts {
+    display: block
+  }
+}
+
+app-brabopak,
+app-claes-food-projects,
+app-dumortier,
+app-weidelco {
+  display: flex;
+
+  app-company-header {
+    display: block
+  }
+
+  app-company-fact {
+    padding: 1.5rem 0;
+    display: block;
+
+    div.container {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+
+      h2 {
+        margin: 0;
+      }
+
+      a {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+app-company-tiles,
+app-company-suppliers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
+  &>div {
+    width: 15rem;
+
+    &+div {
+      margin-top: 2rem
+    }
+  }
+
+  @media only screen and (min-width: 60rem) {
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &>div {
+      // width: 18rem;
+
+      &+div {
+        margin-left: 2rem;
+        margin-top: 0
+      }
+    }
+  }
+
+  h4 {
+    text-align: center;
+    padding-bottom: .5rem
+  }
+
+  app-company-tile,
+  app-company-supplier {
+    display: block;
+
+    a {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 1.5rem 1.5rem 0;
+      justify-content: center;
+      background-color: white;
+      border: .875rem solid #f2fafd;
+
+      img {
+        aspect-ratio: auto 640 / 235;
+        margin-bottom: 1.5rem;
+        height: 81px;
+        max-width: 11.25rem;
+        object-fit: contain;
+        object-position: center center;
+        width: auto
+      }
+    }
+
+    &+app-company-tile,
+    &+app-company-supplier {
+      margin-top: 2rem
+    }
+  }
+}
+
+app-company-facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media only screen and (min-width: 60rem) {
+    justify-content: center;
+    flex-direction: row
+  }
+
+  app-company-fact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 9999px;
+    margin-bottom: 2rem;
+
+    &+app-company-fact {
+      margin-left: .5rem
+    }
+
+    @media screen and (min-width: 60rem) {
+      width: 16rem;
+      height: 16rem;
+
+      &+app-company-fact {
+        margin-left: 1rem
+      }
+    }
+
+    @media screen and (min-width: 80rem) {
+      width: 18rem;
+      height: 18rem;
+
+      &+app-company-fact {
+        margin-left: 2rem
+      }
+    }
+
+    @media screen and (min-width: 120rem) {
+      width: 22rem;
+      height: 22rem;
+
+      &+app-company-fact {
+        margin-left: 4rem
+      }
+    }
+
+    .fact__placeholder {
+      display: flex;
+      flex-direction: column
+    }
+
+    .fact__value {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+      color: var(--primary-color)
+    }
+
+    .fact__icon {
+      margin-top: -.5rem;
+      color: var(--secondary-color);
+      text-align: center;
+      align-self: center;
+      justify-self: center
+    }
+  }
+}

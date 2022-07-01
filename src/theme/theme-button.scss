@@ -1,0 +1,84 @@
+$animation: all .24s cubic-bezier(0, 0, .2, 1);
+
+.button,
+.button::after,
+.button::before,
+button,
+button::before,
+button::after,
+input[type=button],
+input[type=button]::before,
+input[type=button]::after {
+  transition: $animation;
+  border-radius: 9999px
+}
+
+.button,
+button,
+input[type=button] {
+  padding: 0 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: var(--secondary-color);
+  margin: 0;
+  min-width: 7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  min-height: 4rem;
+  max-height: 4rem;
+  line-height: 1;
+  font-weight: bold;
+  font-family: 'Fedra';
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  z-index: 0;
+  overflow: hidden;
+  margin-top: 2rem;
+
+  i.fa-arrow-right {
+    transition: $animation;
+    padding-left: 1rem
+  }
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform-origin: left
+  }
+
+  &:before {
+    z-index: -1;
+    border-radius: 0px;
+    transform: translateX(-100%);
+    background-color: var(--secondary-color)
+  }
+
+  &:after {
+    border: 2px solid var(--secondary-color);
+    z-index: -2
+  }
+
+  &:hover {
+    &:before {
+      transform: translateX(0)
+    }
+
+    color: white;
+
+    i.fa-arrow-right {
+      transform: translateX(.5em)
+    }
+  }
+}

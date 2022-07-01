@@ -1,0 +1,28 @@
+<header>
+  <div class="header_primary container">
+    <a [routerLink]="['/'] | localize">
+      <img class="logo" src="/assets/images/logo.png" height="84" alt="Foodpartners International logo">
+    </a>
+
+    <nav>
+      <a [routerLink]="['/'] | localize" fragment="index-about">Over de groep</a>
+      <a [routerLink]="['/'] | localize" fragment="index-sofindev">Contact</a>
+    </nav>
+  </div>
+  <div class="header_secondary">
+    <nav class="container">
+      <a [routerLink]="['/weidelco'] | localize" routerLinkActive="active">
+        Weidelco
+      </a>
+      <a [routerLink]="['/claes-food-projects'] | localize" routerLinkActive="active">
+        Claes Food Projects
+      </a>
+      <a [routerLink]="['/brabopak'] | localize" routerLinkActive="active">
+        Brabopak
+      </a>
+      <a [routerLink]="['/dumortier'] | localize" routerLinkActive="active">
+        Dumortier
+      </a>
+    </nav>
+  </div>
+</header>
