@@ -10,10 +10,10 @@ import { IndexSupplierComponent } from './index-supplier/index-supplier.componen
 import { IndexAboutComponent } from './index-about/index-about.component'
 import { IndexSofindevComponent } from './index-sofindev/index-sofindev.component'
 import { IndexFactsComponent } from './index-facts/index-facts.component'
-import { LocalizeRouterModule } from '@gilsdav/ngx-translate-router';
-import { CompanyFactsComponent } from './company-facts/company-facts.component';
-import { CompanyFactComponent } from './company-fact/company-fact.component';
-import { CompanySuppliersComponent } from './company-suppliers/company-suppliers.component';
+import { LocalizeRouterModule } from '@gilsdav/ngx-translate-router'
+import { CompanyFactsComponent } from './company-facts/company-facts.component'
+import { CompanyFactComponent } from './company-fact/company-fact.component'
+import { CompanySuppliersComponent } from './company-suppliers/company-suppliers.component'
 import { CompanySupplierComponent } from './company-supplier/company-supplier.component'
 
 @NgModule({
