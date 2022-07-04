@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core'
 import { NoPreloading, Route, RouterModule } from '@angular/router'
-import { ErrorNotFoundComponent } from './pages/errors/error-404/error-not-found.component'
 
 
 export const routes: Route[] = [{
@@ -50,7 +49,7 @@ export const routes: Route[] = [{
   }
 }, {
   path: '**',
-  component: ErrorNotFoundComponent
+  loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
 }]
 @NgModule({
   imports: [

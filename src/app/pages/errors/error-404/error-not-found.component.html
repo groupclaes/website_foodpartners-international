@@ -1,3 +1,27 @@
 <!-- indicator for SSR to return 404 status code -->
 <!-- MUST BE LEFT HERE -->
 <input type="hidden" value="404-error">
+<section>
+  <div class="container">
+    <h1>
+      Oeps !
+    </h1>
+
+    <h2>
+      De pagina die je wilt bezoeken bestaat niet
+    </h2>
+
+    <h4 style="text-align:center">
+      Adem in, adem uit, ga terug naar de startpagina en probeer opnieuw.
+    </h4>
+
+    <p>
+      (tenzij je op zoek was naar de 404 pagina met titel 'Oeps !', in dat geval heb je hem gevonden!)
+      <br>
+      <a class="button" [routerLink]="['/'] | localize">
+        Terug naar de startpagina
+        <i class="fal fa-arrow-right"></i>
+      </a>
+    </p>
+  </div>
+</section>

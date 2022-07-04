@@ -359,6 +359,10 @@ app-company-suppliers {
   &>div {
     width: 15rem;
 
+    h3 {
+      text-align: center
+    }
+
     &+div {
       margin-top: 2rem
     }
@@ -394,7 +398,7 @@ app-company-suppliers {
       padding: 1.5rem 1.5rem 0;
       justify-content: center;
       background-color: white;
-      border: .875rem solid #f2fafd;
+      border: .875rem solid var(--background-color-secondary-alt);
 
       img {
         aspect-ratio: auto 640 / 235;

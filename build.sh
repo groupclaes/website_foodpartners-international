@@ -20,3 +20,6 @@ echo "building docker images ${docker_reg}/${docker_company}_${PACKAGE_NAME}:${d
 docker build -t "${docker_reg}/${docker_company}_${PACKAGE_NAME}:${docker_tag}" -t "${docker_reg}/${docker_company}_${PACKAGE_NAME}:${PACKAGE_VERSION}" -f Dockerfile . && docker push "${docker_reg}/${docker_company}_${PACKAGE_NAME}:${docker_tag}" && docker push "${docker_reg}/${docker_company}_${PACKAGE_NAME}:${PACKAGE_VERSION}"
 
 echo "Last runtime: $(date)"
+
+docker image prune --filter label=stage=build --force
+echo "removed build stage image"

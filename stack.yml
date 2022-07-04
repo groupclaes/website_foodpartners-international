@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  foodpartners-international:
+    image: docker-registry.groupclaes.be/fpi_website:latest
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints: [node.labels.worker == true]
+      resources:
+        reservations:
+          memory: 40M
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.foodpartners-international-web.rule=Host(`foodpartners-international.be`) || Host(`www.foodpartners-international.be`)"
+        - "traefik.http.routers.foodpartners-international-web.entrypoints=web"
+        - "traefik.http.services.foodpartners-international-web.loadbalancer.server.port=80"
+    healthcheck:
+      test: wget -q --spider http://localhost/ || exit 1
+      interval: 10s
+      timeout: 5s
+      start_period: 5s
+      retries: 2
+    networks:
+      - traefik_web
+
+networks:
+  traefik_web:
+    external: true

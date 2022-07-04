@@ -4,6 +4,7 @@
 
 # base image
 FROM docker-registry.groupclaes.be/node-npm as build
+LABEL stage=build
 
 # install chrome for protractor tests
 # RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
@@ -29,23 +30,17 @@ COPY . /app
 # RUN ng e2e --port 4202
 
 # generate build
-RUN ng build --output-path=dist --configuration=production --aot --output-hashing=all
+RUN npm run build:ssr
 
 ############
 ### prod ###
 ############
 
 # base image
-FROM docker-registry.groupclaes.be/nginx:latest
-
-#remove all content form html
-RUN rm -rf /usr/share/nginx/html/*
+FROM docker-registry.groupclaes.be/node-base:latest
 
 # copy artifact build from the 'build environment'
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY --from=build /app/src/documents /usr/share/nginx/html/documents 
-#--chmod=777 
-COPY --from=build /app/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/dist /app/dist
 
-# expose port 80
-EXPOSE 80
+WORKDIR /app
+CMD node dist/server/main.js
