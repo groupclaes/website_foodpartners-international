@@ -19,8 +19,28 @@ p {
 }
 
 html {
-  font-family: 'Inconsolata',
-    monospace;
+  // --header-font-family: 'Fedra', sans-serif;
+  // --header-font-weight: 400;
+  // --subheader-font-family: 'Fedra', sans-serif;
+  // --subheader-font-weight: 400;
+  // --body-font-family: 'Inconsolata', monospace;
+  // --body-font-weight: 400;
+  // --paragraph-font-family: 'Lora', serif;
+  // --paragraph-font-weight: 400;
+  // --footer-font-family: 'Inconsolata', monospace;
+  // --footer-font-weight: 400;
+  --header-font-family: 'Open Sans', sans-serif;
+  --header-font-weight: 700;
+  --subheader-font-family: 'Open Sans', sans-serif;
+  --subheader-font-weight: 700;
+  --body-font-family: 'Open Sans', sans-serif;
+  --body-font-weight: 300;
+  --paragraph-font-family: 'Open Sans', sans-serif;
+  --paragraph-font-weight: 400;
+  --footer-font-family: 'Open Sans', sans-serif;
+  --footer-font-weight: 300;
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
   background-color: var(--background-color);
   font-size: calc(14px + 6 * (100vw - 350px) / 1570);
 
@@ -28,6 +48,32 @@ html {
     font-size: calc(18px + 5 * (100vw - 1920px) / 580)
   }
 }
+
+// html.lato {
+//   --header-font-family: 'Lato', sans-serif;
+//   --header-font-weight: 700;
+//   --subheader-font-family: 'Lato', sans-serif;
+//   --subheader-font-weight: 700;
+//   --body-font-family: 'Lato', sans-serif;
+//   --body-font-weight: 300;
+//   --paragraph-font-family: 'Lato', sans-serif;
+//   --paragraph-font-weight: 400;
+//   --footer-font-family: 'Lato', sans-serif;
+//   --footer-font-weight: 300;
+// }
+
+// html.os {
+//   --header-font-family: 'Open Sans', sans-serif;
+//   --header-font-weight: 700;
+//   --subheader-font-family: 'Open Sans', sans-serif;
+//   --subheader-font-weight: 700;
+//   --body-font-family: 'Open Sans', sans-serif;
+//   --body-font-weight: 300;
+//   --paragraph-font-family: 'Open Sans', sans-serif;
+//   --paragraph-font-weight: 400;
+//   --footer-font-family: 'Open Sans', sans-serif;
+//   --footer-font-weight: 300;
+// }
 
 h1,
 .title_xxl {
@@ -115,19 +161,22 @@ a:not(.button) {
 h1,
 h2 {
   text-align: center;
-  font-family: 'Fedra', sans-serif;
-  letter-spacing: -.1rem;
+  font-family: var(--header-font-family);
+  font-weight: var(--header-font-weight);
+  // letter-spacing: -.1rem;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fedra', sans-serif
+  font-family: var(--subheader-font-family);
+  font-weight: var(--subheader-font-weight);
 }
 
 p {
-  font-family: 'Lora', serif;
+  font-weight: var(--paragraph-font-weight);
+  font-family: var(--paragraph-font-family);
   max-width: 67.14286vw;
 
   @media screen and (min-width: 40em) {
@@ -144,7 +193,8 @@ p {
 }
 
 i {
-  font-family: 'Inconsolata', monospace
+  font-weight: var(--footer-font-family);
+  font-family: var(--footer-font-weight);
 }
 
 section {
@@ -167,9 +217,14 @@ app-header {
       align-items: center;
       padding-left: 1rem;
 
-      img {
-        max-width: calc(90vw - 1rem);
-        object-fit: contain;
+      a.logo {
+        height: calc(100% - 2rem);
+
+        img {
+          height: 100%;
+          max-width: calc(90vw - 1rem);
+          object-fit: contain;
+        }
       }
 
       nav {

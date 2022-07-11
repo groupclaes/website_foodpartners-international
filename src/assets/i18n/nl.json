@@ -57,8 +57,8 @@
           "contact": "Contact"
         },
         "location": {
-          "vat": "BE0777.675.427",
-          "rpr": "RPR Hasselt",
+          "vat": "BE 0777.675.427",
+          "rpr": "RPR Antwerpen,\nAfd. Hasselt",
           "address": "Beverlosesteenweg 128\n3583 Beringen, België"
         }
       },
@@ -72,7 +72,8 @@
     "components": {
       "index": {
         "index-header": {
-          "title": "Welkom bij Foodpartners International\nDe voedingsgroothandel die van alle markten thuis is!",
+          "title": "Welkom bij Foodpartners International",
+          "subtitle": "De voedingsgroothandel die van alle markten thuis is!",
           "text-1": "Foodpartners International bundelt over de landsgrenzen heen heel wat sterke spelers actief in slagerij en voedingsindustrie. Het strategische doel is glashelder: koploper worden in de Benelux, Frankrijk en ver daarbuiten als totaalleverancier voor elke klant in de voedingssector (zowel kleinhandel, retail als industrie).",
           "text-2": "Door actief op zoek te gaan naar synergieën in aankoopkracht, transport, opslagcapaciteit, leveringstermijnen, enz. ligt er voor elk bedrijf een mooi groeipad open. Met verenigde krachten én met behoud van voldoende autonomie in de vertrouwde thuismarkten ziet de toekomst er voor alle partners erg veelbelovend uit.",
           "cta": "Meer weten"
@@ -95,7 +96,7 @@
           "cta": "Meer weten over Sofindev"
         },
         "index-facts": {
-          "title": "Kerncijfers"
+          "title": "Kerncijfers in de kijker"
         },
         "company-tiles": {
           "tile-1": "Nederland",

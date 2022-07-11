@@ -59,7 +59,7 @@ export function app(): express.Express {
   // Default route with accept-language redirect
   server.get('/', (req: any, res: any) => {
     const defaultLang = 'nl'
-    const lang = req.acceptsLanguages('nl', 'fr', 'de', 'en')
+    const lang = req.acceptsLanguages('nl', 'fr', 'de')
 
     const definedLang = lang || defaultLang
 

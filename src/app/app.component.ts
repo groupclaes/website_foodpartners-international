@@ -26,6 +26,14 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this._elementRef.nativeElement.removeAttribute('ng-version')
 
+    this.activatedRoute.queryParams.subscribe(params => {
+      if (params['font']) {
+        if (document) {
+          document.documentElement.classList.add(params['font'])
+        }
+      }
+    })
+
     const onNavigationEnd = this.router.events.pipe(filter(event => event instanceof NavigationEnd))
     onNavigationEnd
       .pipe(
