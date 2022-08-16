@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnInit, ViewEnc
 import { TranslateService } from '@ngx-translate/core'
 import { DOCUMENT } from '@angular/common'
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router'
-import { filter, merge, map, mergeMap } from 'rxjs'
+import { filter, map, mergeMap } from 'rxjs'
 import { MetaService } from './@shared/services/meta.service'
 
 @Component({

@@ -20,9 +20,6 @@ export class CompanyFactComponent implements OnInit {
 
   get icon(): string {
     switch (this.name) {
-      case 'activities':
-        return 'fa-wave-sine'
-
       case 'locations':
         return 'fa-map-marker-alt'
 
@@ -34,9 +31,6 @@ export class CompanyFactComponent implements OnInit {
 
       case 'team':
         return 'fa-users'
-
-      case 'more-info':
-        return 'fa-info-circle'
 
       default:
         return ''

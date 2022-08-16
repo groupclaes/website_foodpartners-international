@@ -1,3 +1,12 @@
 <div class="container">
   <h1 class="white-space-pre mt-4">{{ title | translate }}</h1>
+  <div>
+    <p *ngFor="let text of texts">{{text}}</p>
+    <a *ngIf="link" class="button" [href]="link" target="_blank">
+      {{ cta | translate }}
+      <i class="fal fa-arrow-right"></i>
+    </a>
+    <br>
+    <ng-content select="[extra]"></ng-content>
+  </div>
 </div>

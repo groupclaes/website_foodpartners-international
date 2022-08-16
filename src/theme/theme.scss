@@ -19,16 +19,6 @@ p {
 }
 
 html {
-  // --header-font-family: 'Fedra', sans-serif;
-  // --header-font-weight: 400;
-  // --subheader-font-family: 'Fedra', sans-serif;
-  // --subheader-font-weight: 400;
-  // --body-font-family: 'Inconsolata', monospace;
-  // --body-font-weight: 400;
-  // --paragraph-font-family: 'Lora', serif;
-  // --paragraph-font-weight: 400;
-  // --footer-font-family: 'Inconsolata', monospace;
-  // --footer-font-weight: 400;
   --header-font-family: 'Open Sans', sans-serif;
   --header-font-weight: 700;
   --subheader-font-family: 'Open Sans', sans-serif;
@@ -48,32 +38,6 @@ html {
     font-size: calc(18px + 5 * (100vw - 1920px) / 580)
   }
 }
-
-// html.lato {
-//   --header-font-family: 'Lato', sans-serif;
-//   --header-font-weight: 700;
-//   --subheader-font-family: 'Lato', sans-serif;
-//   --subheader-font-weight: 700;
-//   --body-font-family: 'Lato', sans-serif;
-//   --body-font-weight: 300;
-//   --paragraph-font-family: 'Lato', sans-serif;
-//   --paragraph-font-weight: 400;
-//   --footer-font-family: 'Lato', sans-serif;
-//   --footer-font-weight: 300;
-// }
-
-// html.os {
-//   --header-font-family: 'Open Sans', sans-serif;
-//   --header-font-weight: 700;
-//   --subheader-font-family: 'Open Sans', sans-serif;
-//   --subheader-font-weight: 700;
-//   --body-font-family: 'Open Sans', sans-serif;
-//   --body-font-weight: 300;
-//   --paragraph-font-family: 'Open Sans', sans-serif;
-//   --paragraph-font-weight: 400;
-//   --footer-font-family: 'Open Sans', sans-serif;
-//   --footer-font-weight: 300;
-// }
 
 h1,
 .title_xxl {
@@ -198,7 +162,7 @@ i {
 }
 
 section {
-  padding: 7.25rem 0
+  padding: 6.75rem 0
 }
 
 section:nth-child(even) {
@@ -336,13 +300,15 @@ app-footer {
         .nav__item {
           margin-bottom: .5rem;
 
-          a {
+          a:not(:hover) {
             color: inherit;
-
-            &:hover {
-              color: var(--primary-color)
-            }
           }
+        }
+      }
+
+      .footer__location {
+        a:not(:hover) {
+          color: inherit;
         }
       }
     }
@@ -355,7 +321,86 @@ app-footer {
   }
 }
 
+.image-left {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: stretch;
+
+  p {
+    @media screen and (min-width: 900px) {
+      padding-left: 2rem;
+      width: 50%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 33.33%;
+    }
+  }
+
+  img {
+    display: none;
+    width: 50%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+
+    @media screen and (min-width: 900px) {
+      display: block;
+    }
+
+    @media screen and (min-width: 80rem) {
+      width: 66.6666%;
+    }
+  }
+}
+
 app-index {
+  app-index-header {
+    display: block;
+  }
+
+  app-index-sofindev .flex-image-0 {
+    display: flex;
+    justify-content: center;
+    --border-width: 50rem;
+
+    .flex-1 {
+      display: none;
+      margin: -6.75rem 0;
+      flex: 1 auto;
+      width: 50%;
+      position: relative;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+      }
+
+      @media screen and (min-width: 900px) {
+        display: block;
+      }
+
+      @media screen and (min-width: 90rem) {
+        --border-width: 70rem;
+      }
+    }
+
+    .flex-0 {
+      flex: 0 0 auto;
+
+      @media screen and (min-width: 900px) {
+        width: calc(50% - 4rem);
+        margin: 0 2rem;
+      }
+    }
+  }
+
   app-index-sofindev .container {
     display: flex;
     flex-direction: column;
@@ -370,6 +415,63 @@ app-index {
   }
 }
 
+
+app-company-banner {
+  display: block;
+  width: 100%;
+  margin-top: -6.75rem;
+  margin-bottom: 4.5rem;
+  position: relative;
+  min-height: 16rem;
+  height: 33.33vw;
+  overflow: hidden;
+
+  @media screen and (min-width: 900px) {
+    height: 30vw;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 25vw;
+  }
+
+  img.banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 52%;
+    clip-path: polygon(0 0, 96% 0, calc(100% - 12rem) 100%, 0% 100%);
+
+    @media screen and (min-width: 900px) {
+      clip-path: polygon(0 0, 94% 0, calc(100% - 16rem) 100%, 0% 100%);
+    }
+
+    @media screen and (min-width: 1200px) {
+      clip-path: polygon(0 0, 92% 0, calc(100% - 20rem) 100%, 0% 100%);
+    }
+  }
+
+  img.logo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    max-height: 4rem;
+    max-width: 8rem;
+    margin-right: 2rem;
+
+    @media screen and (min-width: 900px) {
+      margin-right: 1.5rem;
+      max-height: 6rem;
+      max-width: 12rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-height: 8rem;
+      max-width: 16rem;
+    }
+  }
+}
+
 app-brabopak,
 app-claes-food-projects,
 app-dumortier,
@@ -377,7 +479,16 @@ app-weidelco {
   display: flex;
 
   app-company-header {
-    display: block
+    display: block;
+
+    div.container {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
   }
 
   app-company-fact {
@@ -393,11 +504,11 @@ app-weidelco {
       align-items: center;
 
       h2 {
-        margin: 0;
+        margin: 0
       }
 
       a {
-        margin-top: 1rem;
+        margin-top: 1rem
       }
     }
   }
@@ -453,7 +564,7 @@ app-company-suppliers {
       padding: 1.5rem 1.5rem 0;
       justify-content: center;
       background-color: white;
-      border: .875rem solid var(--background-color-secondary-alt);
+      border: .5rem solid var(--background-color-secondary-alt);
 
       img {
         aspect-ratio: auto 640 / 235;

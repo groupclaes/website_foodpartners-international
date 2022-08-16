@@ -12,5 +12,4 @@ export class ClaesFoodProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

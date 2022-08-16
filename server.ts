@@ -54,7 +54,7 @@ export function app(): express.Express {
     )
   }
 
-  let data: any = JSON.parse(fs.readFileSync(`src/assets/locales.json`, 'utf8'))
+  let data: any = JSON.parse(fs.readFileSync(`dist/browser/assets/locales.json`, 'utf8'))
 
   // Default route with accept-language redirect
   server.get('/', (req: any, res: any) => {

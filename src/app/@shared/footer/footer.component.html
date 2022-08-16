@@ -2,7 +2,8 @@
   <div class="container">
     <div class="footer_primary">
       <div class="footer__logo">
-        <img class="logo" src="/assets/images/logo-dark_480x176.svg" height="176" alt="Foodpartners International logo dark">
+        <img class="logo" src="/assets/images/logo-dark_480x176.svg" height="176"
+          alt="Foodpartners International logo dark">
       </div>
       <div class="footer__companies nav__first">
         <ul class="nav__list">
@@ -38,6 +39,9 @@
       <div class="footer__location">
         <div class="location_address white-space-pre" translate="shared.footer.primary.location.address"></div>
         <div style="height:20px"></div>
+        <a href="tel:0032116200">
+          +32 11 45 62 00
+        </a>
         <div class="location_vat" translate="shared.footer.primary.location.vat"></div>
         <div style="height:20px"></div>
         <div class="location_rpr white-space-pre" translate="shared.footer.primary.location.rpr"></div>
@@ -45,7 +49,8 @@
     </div>
     <div class="footer_secondary title_xs">
       &copy; {{ currentYear }} {{ 'shared.footer.secondary.title' | translate }}.
-      {{ 'shared.footer.secondary.rights' | translate }}
+      {{ 'shared.footer.secondary.rights' | translate }} - <a
+        href="https://pcm.groupclaes.be/v3/content/fpi/website/document/7/{{ culture }}">{{ 'shared.footer.secondary.policy' | translate }}</a>
     </div>
   </div>
 </footer>

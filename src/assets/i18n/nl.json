@@ -7,37 +7,37 @@
       "title": "Foodpartners International, van alle markten thuis",
       "description": " Internationale koploper worden als totaalleverancier voor elke klant in de voedingssector.",
       "keywords": "Claes Distribution, Claes Machines, Group Claes, Brabopak, Weidelco Foodpartners, Dumortier, groothandel, winkel, B2B, verkoop, slagerij, vleesindustrie, voedingsindustrie, internationaal, totaalleverancier, voedingssector, supermarkt, retail, kleinhandel, Benelux, Frankrijk, Sofindev",
-      "image": "/assets/images/banner-index.jpg"
+      "image": "/assets/images/banner_1.jpg"
     },
     "brabopak": {
       "title": "Brabopak, jouw partner in verpakking",
       "description": "Als groothandel is Brabopak al meer dan 30 jaar actief in de Belgische verpakkingswereld. Het bedrijf is gespecialiseerd in verpakkingen en bedrukkingen op maat voor de retail- en foodsector.",
       "keywords": "verpakking, bedrukking, zakken, potjes, deksels, inpakpapier, supermarkten, traiteurs, bakkers, slagers, vishandel, B2B, groothandel, Wommelgem, België",
-      "image": "/assets/images/banner-brabopak.jpg"
+      "image": "/assets/images/banner-brabopak.webp"
     },
     "claes-food-projects": {
       "title": "Claes Food Projects, een holding met een missie",
       "description": "Claes Distribution, Claes Machines en Group Claes veroverden een sterke positie op de B2B-markt bij slagers, traiteurs, retailketens en de voedingsindustrie. Het zijn betrouwbare totaalleveranciers van producten en toestellen voor de verwerking van o.a. vlees, gevogelte, vis, groenten en kant-en-klare maaltijden.",
       "keywords": " voedingsindustrie, internationaal, totaalleverancier, voedingssector, supermarkt, retail, kleinhandel, Paal-Beringen, België",
-      "image": "/assets/images/banner-claes.jpg"
+      "image": "/assets/images/banner-claes-food-projects.webp"
     },
     "dumortier": {
       "title": "Dumortier, voedingsgroothandel met 100% kwaliteit",
       "description": "Dumortier is al meer dan 50 jaar een gevestigde voedingsgroothandel en toeleverancier van allerlei benodigdheden aan slagers, traiteurs, supermarkten en particulieren. Het gamma omvat o.a. darmen, kruiden, marinades, verpakkingen, messen en onderhoudsproducten. Kortom, de allerbeste producten tegen een scherpe prijs.",
       "keywords": "Groothandel, B2B, toeleverancier, benodigdheden, slagerij, traiteur, voedingsspecialist, Frankrijk, Roncq, Arras, darmen, kruiden, marinades, verpakkingen, messen, onderhoudsproducten",
-      "image": "/assets/images/banner-dumortier.jpg"
+      "image": "/assets/images/banner-dumortier.webp"
     },
     "weidelco": {
       "title": "Weidelco, foodpartners van Nederland",
       "description": "Als groothandel verdeelt Weidelco een totaalassortiment van verpakkingen, specerijen, reinigingsmiddelen, netten, kunstdarmen en apparatuur voor de foodbranche in Nederland.",
       "keywords": "groothandel, winkel, B2B, totaalleverancier, versondernemer, verpakkingen, kruiden, reinigingsmiddelen, netten, kunstdarmen, apparatuur, foodindustrie, Nederland, Leeuwarden, Sittard, Tilburg, Zwolle",
-      "image": "/assets/images/banner-weidelco.jpg"
+      "image": "/assets/images/banner-weidelco.webp"
     },
     "contact": {
       "title": "Contacteer Foodpartners International",
       "description": "Heb je een vraag voor onze internationale groep van groothandelaars? Of interesse om samen te werken? Aarzel niet en contacteer ons.",
       "keywords": "groothandel, winkel, B2B, verkoop, slagerij, vleesindustrie, voedingsindustrie, internationaal, totaalleverancier, voedingssector, supermarkt, retail, kleinhandel, Benelux, investering, partnerschap, samenwerking, Sofindev",
-      "image": "/assets/images/banner-sofindev.jpg"
+      "image": "/assets/images/banner-sofindev.webp"
     }
   },
   "shared": {
@@ -59,12 +59,13 @@
         "location": {
           "vat": "BE 0777.675.427",
           "rpr": "RPR Antwerpen,\nAfd. Hasselt",
-          "address": "Beverlosesteenweg 128\n3583 Beringen, België"
+          "address": "Beverlosesteenweg 128\nPaal-Beringen, B-3583"
         }
       },
       "secondary": {
         "title": "Foodpartners International BV",
-        "rights": "Alle rechten voorbehouden"
+        "rights": "Alle rechten voorbehouden",
+        "policy": "Privacy en voorwaarden"
       }
     }
   },
@@ -79,7 +80,8 @@
           "cta": "Meer weten"
         },
         "index-companies": {
-          "title": "Samen sterk, over de grenzen heen"
+          "title": "Samen sterk, over de grenzen heen",
+          "text": "Maak kennis met de aangesloten bedrijven per land:"
         },
         "index-supplier": {
           "title": "Exclusieve verdelers van sterke merken",
@@ -92,8 +94,9 @@
           "text-3": "Het partnership biedt opportuniteiten om een nog breder en kwaliteitsvoller aanbod met service uit te bouwen voor leveranciers en klanten. Ook voor medewerkers liggen de groei- en ontwikkelkansen voor het grijpen, lokaal én internationaal. We kunnen dus gerust spreken van een mooie win-win-winsituatie die zich ook in de toekomst nog verder zal ontplooien, zowel organisch als via verdere fusies en overnames."
         },
         "index-sofindev": {
-          "text": "De uitbouw van deze Europese groep met sterke ambities en uitgesproken groeikracht wordt mede mogelijk gemaakt dankzij investeringsmaatschappij Sofindev Private Equity Partners.",
-          "cta": "Meer weten over Sofindev"
+          "title": "Met de financiële kracht van Sofindev",
+          "text": "De uitbouw van deze Europese groep met sterke ambities en uitgesproken groeikracht wordt mede mogelijk gemaakt dankzij investeringsmaatschappij Sofindev Private Equity Partners.\n\nMeer weten over de verdere groeiplannen en het strategische potentieel? Neem gerust contact op met de experts van Sofindev voor vrijblijvende informatie.",
+          "cta": "Meer over Sofindev"
         },
         "index-facts": {
           "title": "Kerncijfers in de kijker"
@@ -126,7 +129,7 @@
         "company-fact": {
           "fact-1": {
             "name": "medewerkers in dienst",
-            "value": "340+",
+            "value": "> 340",
             "icon": "fa-users"
           },
           "fact-2": {
@@ -136,7 +139,7 @@
           },
           "fact-3": {
             "name": "euro omzet (in 2021)",
-            "value": "150M+",
+            "value": "> 150M",
             "icon": "fa-analytics"
           }
         }
@@ -144,37 +147,40 @@
       "companies": {
         "company-header": {
           "weidelco": {
-            "title": "Wie is Weidelco?"
-          },
-          "claes-food-projects": {
-            "title": "Wie is Claes Food Projects?"
-          },
-          "brabopak": {
-            "title": "Wie is Brabopak?"
-          },
-          "dumortier": {
-            "title": "Wie is Dumortier?"
-          }
-        },
-        "company-fact": {
-          "activities": {
-            "title": "Activiteiten",
-            "claes-food-projects": [
-              "Claes Food Projects is de holding boven Claes Distribution, Claes Machines en Group Claes.",
-              "Elke divisie legt zich vol overgave toe op haar specifieke kerntaken, maar steeds met eenzelfde missie voor ogen: de allerbeste kwaliteit garanderen, een uitstekende service bieden en de vakkennis van het team ten volle benutten om mee te denken met de klanten. Zo kunnen zij op hun beurt succesvol groeien, nu en in de toekomst."
-            ],
-            "brabopak": [
-              "Brabopak is als groothandel al meer dan 30 jaar actief in de verpakkingswereld. Het bedrijf is gespecialiseerd in verpakkingen en bedrukkingen op maat (gepersonaliseerde zakken, potjes, deksels, inpakpapier ...) voor de retail- en foodsector.",
-              "Met meer dan 10.000 producten - waarvan 3.000 op voorraad in een magazijn van circa 6.300 m2 – richt Brabopak zich vooral op supermarkten, traiteurs, bakkers, slagers, vishandels en andere handelszaken. Wat zijn de sterktes van het bedrijf? Actief meedenken met de klant, continue kwaliteit aanbieden (BRC-certificaat behaald in 2015), snelle levertijden verzekeren en dat tegen de beste prijs."
-            ],
-            "weidelco": [
+            "title": "Wie is Weidelco?",
+            "texts": [
               "Weidelco Foodpartners is een groothandel met een totaalassortiment van verpakkingen, specerijen, reinigingsmiddelen, netten, kunstdarmen en apparatuur voor de foodbranche in Nederland.",
               "Als toeleverancier biedt Weidelco versondernemers extra toegevoegde waarde door nieuwe concepten en formules uit te werken en hen optimaal te ondersteunen met raad en daad. Zo kunnen klanten op hun beurt gericht werken aan hun zaak op vlak van assortiment, rendement, hygiëne en promotie."
             ],
-            "dumortier": [
-              "Dumortier is al meer dan 50 jaar een gevestigde voedingsgroothandel en toeleverancier van allerlei benodigdheden aan slagers, traiteurs en supermarkten. Het gamma omvat o.a. darmen, kruiden, marinades, verpakkingen, messen en onderhoudsproducten. Zowel particulieren als professionals kunnen rekenen op de allerbeste producten tegen een scherpe prijs."
+            "link": "https://www.weidelco.nl",
+            "cta": "Meer over Weidelco"
+          },
+          "claes-food-projects": {
+            "title": "Wie is Claes Food Projects?",
+            "texts": [
+              "Claes Food Projects is de holding boven Claes Distribution, Claes Machines en Group Claes.",
+              "Elke divisie legt zich vol overgave toe op haar specifieke kerntaken, maar steeds met eenzelfde missie voor ogen: de allerbeste kwaliteit garanderen, een uitstekende service bieden en de vakkennis van het team ten volle benutten om mee te denken met de klanten. Zo kunnen zij op hun beurt succesvol groeien, nu en in de toekomst."
             ]
           },
+          "brabopak": {
+            "title": "Wie is Brabopak?",
+            "texts": [
+              "Brabopak is als groothandel al meer dan 30 jaar actief in de verpakkingswereld. Het bedrijf is gespecialiseerd in verpakkingen en bedrukkingen op maat (gepersonaliseerde zakken, potjes, deksels, inpakpapier ...) voor de retail- en foodsector.",
+              "Met meer dan 10.000 producten - waarvan 3.000 op voorraad in een magazijn van circa 6.300 m2 – richt Brabopak zich vooral op supermarkten, traiteurs, bakkers, slagers, vishandels en andere handelszaken. Wat zijn de sterktes van het bedrijf? Actief meedenken met de klant, continue kwaliteit aanbieden (BRC-certificaat behaald in 2015), snelle levertijden verzekeren en dat tegen de beste prijs."
+            ],
+            "link": "https://www.brabopak.com",
+            "cta": "Meer over Brabopak"
+          },
+          "dumortier": {
+            "title": "Wie is Dumortier?",
+            "texts": [
+              "Dumortier is al meer dan 50 jaar een gevestigde voedingsgroothandel en toeleverancier van allerlei benodigdheden aan slagers, traiteurs en supermarkten. Het gamma omvat o.a. darmen, kruiden, marinades, verpakkingen, messen en onderhoudsproducten. Zowel particulieren als professionals kunnen rekenen op de allerbeste producten tegen een scherpe prijs."
+            ],
+            "link": "https://www.epices-dumortier.fr",
+            "cta": "Meer over Dumortier"
+          }
+        },
+        "company-fact": {
           "locations": {
             "title": "Locaties",
             "claes-food-projects": [
@@ -184,10 +190,10 @@
               "1 vestiging in Wommelgem, België"
             ],
             "weidelco": [
-              "4 vestigingen in Nederland: Leeuwarden, Sittard, Tilburg en Zwolle."
+              "4 vestigingen in Nederland: Leeuwarden, Sittard, Tilburg en Zwolle"
             ],
             "dumortier": [
-              "2 vestigingen in Roncq en Arras, Frankrijk (regio Nord-Pas-de-Calais)."
+              "2 vestigingen in Roncq en Arras, Frankrijk (regio Nord-Pas-de-Calais)"
             ]
           },
           "management": {
@@ -199,7 +205,7 @@
               "Robert De Clerck"
             ],
             "weidelco": [
-              "Huub Rolf, Hans Rolf en Eddy Rolf"
+              "Huub Rolf, Hans Rolf & Eddy Rolf"
             ],
             "dumortier": [
               "Thierry Dansette"
@@ -208,39 +214,32 @@
           "founding": {
             "title": "Oprichting",
             "claes-food-projects": [
-              "Opgericht in 1967"
+              "1967"
             ],
             "brabopak": [
-              "Opgericht in 1987"
+              "1987"
             ],
             "weidelco": [
-              "Opgericht in 1907"
+              "1907"
             ],
             "dumortier": [
-              "Opgericht in 1960"
+              "1960"
             ]
           },
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 140 medewerkers in dienst"
+              "> 170 medewerkers in dienst"
             ],
             "brabopak": [
               "> 15 medewerkers in dienst"
             ],
             "weidelco": [
-              "xxx medewerkers in dienst"
+              "> 135 medewerkers in dienst"
             ],
             "dumortier": [
               "> 15 medewerkers in dienst"
             ]
-          },
-          "more-info": {
-            "title": "Meer weten?",
-            "claes-food-projects": [],
-            "brabopak": [],
-            "weidelco": [],
-            "dumortier": []
           }
         }
       }
