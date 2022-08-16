@@ -323,33 +323,34 @@ app-footer {
 
 .image-left {
   display: flex;
-  flex-direction: row;
-  height: 100%;
+  justify-content: center;
   align-items: stretch;
 
   p {
     @media screen and (min-width: 900px) {
-      padding-left: 2rem;
+      padding-left: 1rem;
       width: 50%;
     }
 
     @media screen and (min-width: 1200px) {
-      width: 33.33%;
+      width: 33.333%;
     }
   }
 
   img {
+    flex: 1 1 50%;
     display: none;
-    width: 50%;
     object-fit: cover;
+    height: auto;
+    width: 100%;
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
 
     @media screen and (min-width: 900px) {
-      display: block;
+      display: initial;
     }
 
-    @media screen and (min-width: 80rem) {
-      width: 66.6666%;
+    @media screen and (min-width: 1200px) {
+      width: 66.666%;
     }
   }
 }
