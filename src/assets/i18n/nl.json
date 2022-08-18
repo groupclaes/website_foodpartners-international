@@ -142,6 +142,11 @@
             "value": "> 150M",
             "icon": "fa-analytics"
           }
+        },
+        "company-suppliers": {
+          "supplier-1": "Voeding",
+          "supplier-2": "Verpakkingen",
+          "supplier-3": "Onderhoud"
         }
       },
       "companies": {

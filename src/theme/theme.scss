@@ -380,6 +380,7 @@ app-index {
         height: 100%;
         width: 100%;
         object-fit: cover;
+        object-position: 90% center;
         clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
       }
 
@@ -503,6 +504,7 @@ app-weidelco {
       justify-content: center;
       align-content: center;
       align-items: center;
+      text-align: center;
 
       h2 {
         margin: 0
