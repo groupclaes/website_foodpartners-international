@@ -353,6 +353,7 @@ app-footer {
     @media screen and (min-width: 900px) {
       max-width: unset;
       flex: 1 1 50%;
+      width: 50%;
     }
 
     @media screen and (min-width: 1200px) {
@@ -370,28 +371,36 @@ app-index {
     display: flex;
     justify-content: center;
     --border-width: 50rem;
+    flex-flow: column-reverse;
+
+    @media screen and (min-width: 900px) {
+      flex-flow: row;
+    }
 
     .flex-1 {
-      display: none;
-      margin: -6.75rem 0;
-      flex: 1 auto;
-      width: 50%;
       position: relative;
-      overflow: hidden;
+      margin: -6.75rem 0 0;
 
       img {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 100%;
         width: 100%;
         object-fit: cover;
         object-position: 90% center;
-        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
       }
 
       @media screen and (min-width: 900px) {
-        display: block;
+        flex: 1 auto;
+        width: 50%;
+        overflow: hidden;
+        margin: -6.75rem 0;
+
+        img {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 100%;
+          width: 100%;
+          clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+        }
       }
 
       @media screen and (min-width: 90rem) {
