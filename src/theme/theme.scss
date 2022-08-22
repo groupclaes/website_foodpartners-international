@@ -162,7 +162,15 @@ i {
 }
 
 section {
-  padding: 6.75rem 0
+  padding: 1rem 0 3.75rem;
+
+  @media screen and (min-width: 600px) {
+    padding: 2.75rem 0 5.75rem
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 4.75rem 0 6.75rem
+  }
 }
 
 section:nth-child(even) {
@@ -379,7 +387,7 @@ app-index {
 
     .flex-1 {
       position: relative;
-      margin: -6.75rem 0 0;
+      margin: -1rem 0 0;
 
       img {
         width: 100%;
@@ -387,11 +395,14 @@ app-index {
         object-position: 90% center;
       }
 
+      @media screen and (min-width: 600px) {
+        margin: -2.75rem 0 -5.75rem;
+      }
+
       @media screen and (min-width: 900px) {
         flex: 1 auto;
         width: 50%;
         overflow: hidden;
-        margin: -6.75rem 0;
 
         img {
           position: absolute;
@@ -401,6 +412,10 @@ app-index {
           width: 100%;
           clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
         }
+      }
+
+      @media screen and (min-width: 1200px) {
+        margin: -4.75rem 0 -6.75rem;
       }
 
       @media screen and (min-width: 90rem) {
@@ -436,18 +451,23 @@ app-index {
 app-company-banner {
   display: block;
   width: 100%;
-  margin-top: -6.75rem;
   margin-bottom: 4.5rem;
   position: relative;
   min-height: 16rem;
   height: 33.33vw;
   overflow: hidden;
+  margin-top: -1rem;
+
+  @media screen and (min-width: 600px) {
+    margin-top: -2.75rem;
+  }
 
   @media screen and (min-width: 900px) {
     height: 30vw;
   }
 
   @media screen and (min-width: 1200px) {
+    margin-top: -4.75rem;
     height: 25vw;
   }
 
