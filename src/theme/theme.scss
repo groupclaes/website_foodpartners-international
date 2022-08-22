@@ -115,11 +115,16 @@ a:not(.button) {
   color: var(--secondary-color);
   text-decoration: underline;
 
+  &.active,
   &:hover,
   &:active,
   &:focus {
     color: var(--primary-color)
   }
+}
+
+h1 {
+  text-align: center;
 }
 
 h1,
@@ -310,6 +315,10 @@ app-footer {
 
           a:not(:hover) {
             color: inherit;
+          }
+
+          a.active:not(:hover) {
+            color: var(--secondary-color);
           }
         }
       }
@@ -651,6 +660,7 @@ app-company-facts {
     @media screen and (min-width: 60rem) {
       width: 16rem;
       height: 16rem;
+      margin-bottom: 0;
 
       &+app-company-fact {
         margin-left: 1rem
