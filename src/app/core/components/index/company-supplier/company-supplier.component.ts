@@ -16,6 +16,8 @@ export class CompanySupplierComponent {
   }
 
   get supplierLogo(): string {
+    if (this.name === 'packaging-partners')
+      return `/assets/images/logo-${this.name}.svg`
     return `/assets/images/logo-${this.name}.png`
   }
 }

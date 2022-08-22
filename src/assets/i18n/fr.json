@@ -70,7 +70,7 @@
         },
         "location": {
           "vat": "BE 0777.675.427",
-          "rpr": "RPR Antwerpen,\nAfd. Hasselt",
+          "rpr": "RPR Anvers,\nDiv. Hasselt",
           "address": "Beverlosesteenweg 128\nPaal-Beringen, B-3583"
         }
       },
@@ -159,7 +159,7 @@
       "companies": {
         "company-header": {
           "weidelco": {
-            "title": "Wie is Weidelco?",
+            "title": "Weidelco, qui est-ce ?",
             "texts": [
               "Weidelco Foodpartners est un grossiste proposant une gamme complète d'emballages, d'épices, de produits de nettoyage, de filets, de boyaux artificiels et d'équipements pour le secteur alimentaire aux Pays-Bas.",
               "En tant que fournisseur, Weidelco offre aux entrepreneurs du secteur des produits frais une valeur ajoutée supplémentaire en développant de nouveaux concepts et formules et en les soutenant de manière optimale par des conseils et de l’assistance. De cette façon, les clients peuvent se concentrer sur leur propre activité dans le domaine de l'assortiment, de l'efficacité, de l'hygiène et de la promotion."
