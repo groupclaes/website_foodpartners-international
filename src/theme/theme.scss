@@ -405,13 +405,14 @@ app-index {
       }
 
       @media screen and (min-width: 600px) {
-        margin: -2.75rem 0 -5.75rem;
+        margin: -2.75rem 0 0;
       }
 
       @media screen and (min-width: 900px) {
         flex: 1 auto;
         width: 50%;
         overflow: hidden;
+        margin-bottom: -5.75rem;
 
         img {
           position: absolute;
@@ -438,6 +439,21 @@ app-index {
       @media screen and (min-width: 900px) {
         width: calc(50% - 4rem);
         margin: 0 2rem;
+      }
+
+      @media screen and (min-width: 60rem) {
+        max-width: 50rem;
+        margin-left: calc((100% - 50rem)/2)
+      }
+
+      @media screen and (min-width: 80rem) {
+        max-width: 70rem;
+        margin-left: calc((100% - 70rem)/2)
+      }
+
+      @media screen and (min-width: 120rem) {
+        max-width: 95rem;
+        margin-left: calc((100% - 95rem)/2)
       }
     }
   }
