@@ -4,34 +4,274 @@
   },
   "pages": {
     "index": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Foodpartners International, à l’aise sur tous les marchés",
+      "description": "Le groupe réunit les principaux acteurs actifs dans le domaine de la boucherie et de l'industrie alimentaire. Son objectif ? Devenir un leader international en tant que fournisseur global pour chaque client du secteur alimentaire.",
+      "keywords": "Claes Distribution, Claes Machines, Group Claes, Brabopak, Weidelco Foodpartners, Dumortier, grossiste, magasin, B2B, vente, boucherie, industrie de viande, industrie alimentaire, international, fournisseur complet, secteur alimentaire, supermarché, commerce de détail, petit commerce, Benelux, France, Sofindev",
+      "image": "/assets/images/banner_1.jpg"
     },
     "brabopak": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Brabopak, votre partenaire en matière d'emballage",
+      "description": "En tant que grossiste, Brabopak est actif dans le monde de l'emballage belge depuis plus de 30 ans. L'entreprise est spécialisée dans l'emballage et l'impression sur mesure pour le secteur de la vente au détail et de l'alimentation.",
+      "keywords": "emballage, impression, sacs, bocaux, couvercles, papier d'emballage, supermarchés, traiteurs, boulangers, bouchers, poissonniers, B2B, commerce de gros, Wommelgem, Belgique",
+      "image": "/assets/images/banner-brabopak.webp"
     },
     "claes-food-projects": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Claes Food Projects, une société holding avec une mission",
+      "description": "Claes Distribution, Claes Machines et Group Claes ont acquis une position forte sur le marché B2B auprès des bouchers, des traiteurs, des chaînes de magasins et de l'industrie alimentaire. Ce sont des fournisseurs complets et fiables de produits et d'équipements pour e.a. la transformation de la viande, de la volaille, du poisson, des légumes et des plats cuisinés.",
+      "keywords": "commerce de gros, magasin, B2B, vente, alimentation, marinades, machines, appareils, boucherie, industrie de la viande, industrie alimentaire, international, fournisseur complet, secteur alimentaire, supermarché, petit commerce, commerce de détail, Paal-Beringen, Belgique",
+      "image": "/assets/images/banner-claes-food-projects.webp"
     },
     "dumortier": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Dumortier, grossiste alimentaire avec 100% de qualité",
+      "description": "Depuis plus de 50 ans, Dumortier est un grossiste alimentaire établi et un fournisseur de toutes sortes de fournitures pour les bouchers, les traiteurs, les supermarchés et les particuliers. La gamme comprend des boyaux, des herbes, des marinades, des emballages, des couteaux et des produits d'entretien. En bref, les meilleurs produits à un prix compétitif.",
+      "keywords": "commerce de gros, B2B, fournisseur, fournitures, boucherie, traiteur, spécialiste de l'alimentation, France, Roncq, Arras, boyaux, épices, marinades, emballages, couteaux, produits d'entretien",
+      "image": "/assets/images/banner-dumortier.webp"
     },
     "weidelco": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Weidelco, partenaires alimentaires des Pays-Bas",
+      "description": "En tant que grossiste, Weidelco distribue une gamme complète d'emballages, d'épices, de produits de nettoyage, de filets, de boyaux artificiels et d'équipements pour l'industrie alimentaire aux Pays- Bas.",
+      "keywords": "grossiste, magasin, B2B, fournisseur total, entrepreneur en produits frais, emballages, épices, produits de nettoyage, filets, boyaux artificiels, équipement, industrie alimentaire, Pays-Bas, Leeuwarden, Sittard, Tilburg, Zwolle",
+      "image": "/assets/images/banner-weidelco.webp"
     },
     "contact": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "Contactez Foodpartners International",
+      "description": "Vous avez une question à poser à notre groupe international de grossistes ? Ou vous êtes intéressé à travailler ensemble ? N'hésitez pas à nous contacter.",
+      "keywords": "grossiste, magasin, B2B, vente, boucherie, industrie de la viande, industrie alimentaire, international, fournisseur total, secteur alimentaire, supermarché, commerce de détail, petit commerce, Benelux, investissement, partenariat, coopération, Sofindev",
+      "image": "/assets/images/banner-sofindev.webp"
+    }
+  },
+  "shared": {
+    "header": {
+      "title": "Foodpartners International",
+      "primary": {
+        "companies": {
+          "company-1": "Weidelco",
+          "company-2": "Claes Food Projects",
+          "company-3": "Brabopak",
+          "company-4": "Dumortier"
+        },
+        "nav": {
+          "about": "À propos du groupe",
+          "contact": "Contact"
+        }
+      }
+    },
+    "footer": {
+      "primary": {
+        "companies": {
+          "company-1": "Weidelco",
+          "company-2": "Claes Food Projects",
+          "company-3": "Brabopak",
+          "company-4": "Dumortier"
+        },
+        "nav": {
+          "about": "À propos du groupe",
+          "contact": "Contact"
+        },
+        "location": {
+          "vat": "BE 0777.675.427",
+          "rpr": "RPR Antwerpen,\nAfd. Hasselt",
+          "address": "Beverlosesteenweg 128\nPaal-Beringen, B-3583"
+        }
+      },
+      "secondary": {
+        "title": "Foodpartners International",
+        "rights": "Tous droits réservés",
+        "policy": "Déclaration de confidentialité"
+      }
+    }
+  },
+  "core": {
+    "components": {
+      "index": {
+        "index-header": {
+          "title": "Bienvenue chez Foodpartners International",
+          "subtitle": "Le grossiste alimentaire qui est à l'aise sur tous les marchés !",
+          "text-1": "Foodpartners International réunit de nombreux acteurs de poids actifs dans le secteur de la boucherie et de l'alimentation à travers les frontières nationales. L'objectif stratégique est clair comme de l'eau de roche : devenir un leader dans le Benelux, en France et bien au-delà, en tant que fournisseur global de tous les clients du secteur alimentaire (petit commerce, commerce de détail et industrie).",
+          "text-2": "En recherchant activement des synergies au niveau du pouvoir d'achat, du transport, de la capacité de stockage, des délais de livraison, etc., il se dessine une voie de croissance intéressante pour chaque entreprise. Avec des forces combinées et tout en conservant une autonomie suffisante sur les marchés domestiques familiers, l'avenir semble très prometteur pour tous les partenaires.",
+          "cta": "En savoir plus"
+        },
+        "index-companies": {
+          "title": "Forts ensemble, à travers les frontières",
+          "text": "Apprenez à connaître les entreprises membres par pays."
+        },
+        "index-supplier": {
+          "title": "Distributeurs exclusifs de marques fortes",
+          "text": "Foodpartners International est pleinement engagé dans les partenariats stratégiques. Les entreprises membres optent consciemment pour la croissance, le passage à l'échelle et l'optimisation. Ensemble, elles proposent les marques fortes suivantes sur le marché international :"
+        },
+        "index-about": {
+          "title": "À propos de Foodpartners International",
+          "text-1": "Les organisations qui composent le groupe Foodpartners International (fondé en 2021) sont toutes des acteurs de premier plan jouissant d'une solide réputation dans le secteur alimentaire. Leur plus grand dénominateur commun ? Une histoire et un contexte familial similaires, ainsi qu'une gamme de produits comparable ou se chevauchant.",
+          "text-2": "En combinant leurs forces de manière stratégique et en alignant leurs politiques commerciales de manière optimale, Foodpartners International réunit le meilleur de tous les mondes.",
+          "text-3": "Ce partenariat offre la possibilité de développer une gamme de services encore plus large et de meilleure qualité pour les fournisseurs et les clients. Il existe également de nombreuses possibilités de croissance et de développement pour les employés, tant au niveau local qu'international. Nous pouvons donc parler d'une belle situation \"gagnant-gagnant-gagnant\" qui continuera à se développer à l'avenir, à la fois de manière organique et par le biais de nouvelles fusions et acquisitions."
+        },
+        "index-sofindev": {
+          "title": "Avec la puissance financière de Sofindev",
+          "text": "L'expansion de ce groupe européen aux ambitions fortes et à la croissance prononcée est rendue possible grâce à la société d'investissement Sofindev Private Equity Partners.\n\nVous voulez en savoir plus sur les plans de croissance futurs et le potentiel stratégique ? N'hésitez pas à contacter les experts de Sofindev pour plus d'informations.",
+          "cta": "En savoir plus sur Sofindev"
+        },
+        "index-facts": {
+          "title": "Les chiffres-clés en ligne de mire"
+        },
+        "company-tiles": {
+          "tile-1": "Pays-Bas",
+          "tile-2": "Belgique",
+          "tile-3": "France"
+        },
+        "company-suppliers": {
+          "supplier-1": "Alimentation",
+          "supplier-2": "Emballages",
+          "supplier-3": "Entretien"
+        },
+        "company-tile": {
+          "weidelco": {
+            "name": "Weidelco"
+          },
+          "claes-food-projects": {
+            "name": "Claes Food Projects"
+          },
+          "brabopak": {
+            "name": "Brabopak"
+          },
+          "dumortier": {
+            "name": "Dumortier"
+          }
+        },
+        "company-facts": {},
+        "company-fact": {
+          "fact-1": {
+            "name": "employés",
+            "value": "> 320",
+            "icon": "fa-users"
+          },
+          "fact-2": {
+            "name": "localités dans 3 pays",
+            "value": "8",
+            "icon": "fa-globe-europe"
+          },
+          "fact-3": {
+            "name": "chiffre d'affaires (en 2021)",
+            "value": "> 150M EUR",
+            "icon": "fa-analytics"
+          }
+        }
+      },
+      "companies": {
+        "company-header": {
+          "weidelco": {
+            "title": "Wie is Weidelco?",
+            "texts": [
+              "Weidelco Foodpartners est un grossiste proposant une gamme complète d'emballages, d'épices, de produits de nettoyage, de filets, de boyaux artificiels et d'équipements pour le secteur alimentaire aux Pays-Bas.",
+              "En tant que fournisseur, Weidelco offre aux entrepreneurs du secteur des produits frais une valeur ajoutée supplémentaire en développant de nouveaux concepts et formules et en les soutenant de manière optimale par des conseils et de l’assistance. De cette façon, les clients peuvent se concentrer sur leur propre activité dans le domaine de l'assortiment, de l'efficacité, de l'hygiène et de la promotion."
+            ],
+            "link": "https://www.weidelco.nl",
+            "cta": "En savoir plus sur Weidelco"
+          },
+          "claes-food-projects": {
+            "title": "Claes Food Projects, qui est-ce ?",
+            "texts": [
+              "Claes Food Projects est la société holding au-dessus de Claes Distribution, Claes Machines et Group Claes.",
+              "Chaque division se consacre à ses tâches essentielles spécifiques, mais toujours avec la même mission en tête : nous voulons garantir la meilleure qualité, offrir un excellent service et utiliser pleinement l'expertise de notre équipe pour réfléchir avec nos clients."
+            ],
+            "claes-distribution": {
+              "text-1": "Avec plus de 14.000 produits, la gamme du grossiste Claes Distribution est tout simplement impressionnante.",
+              "text-2": "Herbes, sauces, marinades, épices, denrées alimentaires, boyaux, emballages, produits et fournitures d'hygiène et de désinfection pour les magasins, cuisines et ateliers : Claes Distribution a tout ! Grâce à une gestion optimale des stocks, une livraison rapide est la norme.",
+              "cta": "En savoir plus sur Claes Distribution"
+            },
+            "claes-machines": {
+              "text-1": "Claes Machines est spécialisé dans la vente et le service d'une large gamme d'appareils pour la transformation de la viande, de la volaille, du poisson, des légumes et des plats cuisinés.",
+              "text-2": "L'entreprise distribue des marques leaders fiables et assure une installation professionnelle de chaque machine. Les clients peuvent également compter sur Claes Machines pour l'entretien préventif, les conseils, la révision, la réparation et les pièces de rechange.",
+              "cta": "En savoir plus sur Claes Machines"
+            },
+            "groupclaes": {
+              "text-1": "Les services de support de Group Claes sont indispensables au bon déroulement des activités de Claes Machines et de Claes Distribution. L'informatique, les finances, les ressources humaines, le marketing et la communication sont entre autres hébergés ici.",
+              "text-2": "Group Claes dispose d'une infrastructure moderne, utilise les dernières technologies et recherche constamment l'amélioration, l'efficacité et la rentabilité. Bien entendu, les clients en récoltent aussi les fruits !",
+              "text-3": "",
+              "cta": "En savoir plus sur Group Claes"
+            }
+          },
+          "brabopak": {
+            "title": "Brabopak, qui est-ce ?",
+            "texts": [
+              "Brabopak est actif en tant que grossiste en emballages depuis plus de 30 ans. L'entreprise est spécialisée dans l'emballage et l'impression personnalisés (sacs, pots, couvercles, papier d'emballage, etc.) pour le secteur de la vente au détail et de l'alimentation.",
+              "Avec plus de 10.000 produits - dont 3.000 sont en stock dans un entrepôt d'environ 6.300 m2 - Brabopak s'adresse principalement aux supermarchés, aux traiteurs, aux boulangers, aux bouchers, aux poissonniers et autres détaillants. Quels sont les points forts de l'entreprise ? Penser activement avec le client, offrir une qualité continue (certificat BRC obtenu en 2015), assurer des délais de livraison rapides et tout cela au meilleur prix."
+            ],
+            "link": "https://www.brabopak.com",
+            "cta": "En savoir plus sur Brabopak"
+          },
+          "dumortier": {
+            "title": "Dumortier, qui est-ce ?",
+            "texts": [
+              "Dumortier est un grossiste alimentaire établi et un fournisseur de toutes sortes de fournitures pour les bouchers, les traiteurs et les supermarchés depuis plus de 50 ans.",
+              "La gamme comprend des boyaux, des herbes, des marinades, des emballages, des couteaux et des produits d'entretien. Tant les particuliers que les professionnels peuvent compter sur les meilleurs produits à un prix compétitif."
+            ],
+            "link": "https://www.epices-dumortier.fr",
+            "cta": "En savoir plus sur Dumortier"
+          }
+        },
+        "company-fact": {
+          "locations": {
+            "title": "Établissements",
+            "claes-food-projects": [
+              "1 succursale à Paal-Beringen, Belgique"
+            ],
+            "brabopak": [
+              "1 succursale à Wommelgem, Belgique"
+            ],
+            "weidelco": [
+              "4 succursales aux Pays-Bas : Leeuwarden, Sittard, Tilburg & Zwolle"
+            ],
+            "dumortier": [
+              "2 succursales à Roncq & Arras, France (region Nord-Pas-de-Calais)"
+            ]
+          },
+          "management": {
+            "title": "Gestion d’entreprise",
+            "claes-food-projects": [
+              "Ronny Claes & Bart Verbeeck"
+            ],
+            "brabopak": [
+              "Robert De Clerck"
+            ],
+            "weidelco": [
+              "Huub Rolf, Hans Rolf & Eddy Rolf"
+            ],
+            "dumortier": [
+              "Thierry Dansette"
+            ]
+          },
+          "founding": {
+            "title": "Fondation",
+            "claes-food-projects": [
+              "1967"
+            ],
+            "brabopak": [
+              "1987"
+            ],
+            "weidelco": [
+              "1907"
+            ],
+            "dumortier": [
+              "1960"
+            ]
+          },
+          "team": {
+            "title": "Équipe",
+            "claes-food-projects": [
+              "> 150 employés"
+            ],
+            "brabopak": [
+              "> 20 employés"
+            ],
+            "weidelco": [
+              "> 135 employés"
+            ],
+            "dumortier": [
+              "> 15 employés"
+            ]
+          }
+        }
+      }
     }
   }
 }

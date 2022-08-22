@@ -655,6 +655,10 @@ app-company-facts {
       }
     }
 
+    .fact__name {
+      text-align: center;
+    }
+
     .fact__placeholder {
       display: flex;
       flex-direction: column

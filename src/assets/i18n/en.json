@@ -1,0 +1,275 @@
+{
+  "ROUTES": {
+    "": ""
+  },
+  "pages": {
+    "index": {
+      "title": "Foodpartners International, at home in all markets",
+      "description": "The group brings together leading players active in the butchery and food industries. Its aim? To become an international leader as a total supplier for every customer in the food sector.",
+      "keywords": "Claes Distribution, Claes Machines, Group Claes, Brabopak, Weidelco Foodpartners, Dumortier, wholesale, shop, B2B, sales, butchery, meat industry, food industry, international, total supplier, food sector, supermarket, retail, retail, Benelux, France, Sofindev",
+      "image": "/assets/images/banner_1.jpg"
+    },
+    "brabopak": {
+      "title": "Brabopak, your partner in packaging",
+      "description": "As a wholesaler, Brabopak has been active in the Belgian packaging business for over 30 years. The company specialises in customized packaging and printing for the retail and food sector.",
+      "keywords": "packaging, printing, bags, jars, lids, wrapping paper, supermarkets, caterers, bakers, butchers, fishmongers, B2B, wholesale, Wommelgem, Belgium",
+      "image": "/assets/images/banner-brabopak.webp"
+    },
+    "claes-food-projects": {
+      "title": "Claes Food Projects, a holding company with a mission",
+      "description": "Claes Distribution, Claes Machines and Group Claes have gained a strong position in the B2B market among butchers, caterers, retail chains and the food industry. They are reliable total suppliers of products and equipment for processing meat, poultry, fish, vegetables and ready-made meals.",
+      "keywords": "industry, international, total supplier, food sector, supermarket, retail, Paal-Beringen, Belgium",
+      "image": "/assets/images/banner-claes-food-projects.webp"
+    },
+    "dumortier": {
+      "title": "Dumortier, food wholesaler with 100% quality",
+      "description": "For more than 50 years, Dumortier has been an established food wholesaler and supplier of all kinds of necessities to butchers, caterers, supermarkets and individuals. The range includes casings, herbs, marinades, packaging, knives and maintenance products. In short, the very best products at a competitive price.",
+      "keywords": "Wholesale, B2B, supplier, supplies, butchery, caterer, food specialist, France, Roncq, Arras, casings, herbs, marinades, packaging, knives, maintenance products",
+      "image": "/assets/images/banner-dumortier.webp"
+    },
+    "weidelco": {
+      "title": "Weidelco, food partners in the Netherlands",
+      "description": " artificial casings and equipment for the food sector in the Netherlands.",
+      "keywords": " artificial casings, equipment, food industry, Netherlands, Leeuwarden, Sittard, Tilburg, Zwolle",
+      "image": "/assets/images/banner-weidelco.webp"
+    },
+    "contact": {
+      "title": "Contact Foodpartners International",
+      "description": "Do you have a question for our international group of wholesalers? Or interested in working together? Don't hesitate and contact us.",
+      "keywords": "wholesale, shop, B2B, sales, butchery, meat industry, food industry, international, total supplier, food sector, supermarket, retail, Benelux, investment, partnership, cooperation, collaboration, Sofindev",
+      "image": "/assets/images/banner-sofindev.webp"
+    }
+  },
+  "shared": {
+    "header": {
+      "title": "Foodpartners International",
+      "primary": {
+        "companies": {
+          "company-1": "Weidelco",
+          "company-2": "Claes Food Projects",
+          "company-3": "Brabopak",
+          "company-4": "Dumortier"
+        },
+        "nav": {
+          "about": "About the group",
+          "contact": "Contact"
+        }
+      }
+    },
+    "footer": {
+      "primary": {
+        "companies": {
+          "company-1": "Weidelco",
+          "company-2": "Claes Food Projects",
+          "company-3": "Brabopak",
+          "company-4": "Dumortier"
+        },
+        "nav": {
+          "about": "About the group",
+          "contact": "Contact"
+        },
+        "location": {
+          "vat": "BE 0777.675.427",
+          "rpr": "RPR Antwerpen,\nAfd. Hasselt",
+          "address": "Beverlosesteenweg 128\nPaal-Beringen, B-3583"
+        }
+      },
+      "secondary": {
+        "title": "Foodpartners International",
+        "rights": "All rights reserved",
+        "policy": "Privacy policy"
+      }
+    }
+  },
+  "core": {
+    "components": {
+      "index": {
+        "index-header": {
+          "title": "Welcome to Foodpartners International",
+          "subtitle": "The food wholesaler who is at home in all markets!",
+          "text-1": "Foodpartners International brings together many strong players across national borders who are active in the butchery and food industries. Our strategic objective is crystal clear: to become a leader in the Benelux, France and far beyond as a total supplier to every customer in the food sector (retail, industrial and otherwise).",
+          "text-2": "By actively looking for synergies in purchasing power, transport, storage capacity, delivery times, etc., there is an attractive growth path for each company. With combined forces and while retaining sufficient autonomy in the familiar home markets, the future looks very promising for all partners.",
+          "cta": "Find out more"
+        },
+        "index-companies": {
+          "title": "Strong together, across borders",
+          "text": "Get to know the member companies by country:"
+        },
+        "index-supplier": {
+          "title": "Exclusive distributors of strong brands",
+          "text": "Foodpartners International is deeply committed to strategic partnerships. The member companies consciously opt for growth, scaling up and optimisation. Together, they offer the following strong brands on the international market:"
+        },
+        "index-about": {
+          "title": "About Foodpartners International",
+          "text-1": "The organisations that make up the Foodpartners International group (founded in 2021) are all leading players with a strong reputation in the food sector. Their greatest common denominator? A similar history, family background and comparable or overlapping product range.",
+          "text-2": "By combining forces strategically and aligning their business policies optimally, Foodpartners International brings together the best of all worlds.",
+          "text-3": "The partnership offers opportunities to develop an even broader and higher quality service range for suppliers and customers. There are also plenty of opportunities for growth and development for employees, both locally and internationally. We can therefore safely speak of a bright win-win-win situation that will continue to develop in the future, both organically and through further mergers and acquisitions."
+        },
+        "index-sofindev": {
+          "title": "With the financial strength of Sofindev",
+          "text": "The expansion of this European group with strong ambitions and pronounced growth strength is made possible thanks to investment company Sofindev Private Equity Partners.\n\nWant to know more about the further growth plans and the strategic potential? Feel free to contact the experts of Sofindev for more information.",
+          "cta": "More about Sofindev"
+        },
+        "index-facts": {
+          "title": "Key figures in the spotlight"
+        },
+        "company-tiles": {
+          "tile-1": "Netherlands",
+          "tile-2": "Belgium",
+          "tile-3": "France"
+        },
+        "company-suppliers": {
+          "supplier-1": "Food",
+          "supplier-2": "Packaging",
+          "supplier-3": "Maintenance"
+        },
+        "company-tile": {
+          "weidelco": {
+            "name": "Weidelco"
+          },
+          "claes-food-projects": {
+            "name": "Claes Food Projects"
+          },
+          "brabopak": {
+            "name": "Brabopak"
+          },
+          "dumortier": {
+            "name": "Dumortier"
+          }
+        },
+        "company-fact": {
+          "fact-1": {
+            "name": "employees",
+            "value": "> 320",
+            "icon": "fa-users"
+          },
+          "fact-2": {
+            "name": "locations in 3 countries",
+            "value": "8",
+            "icon": "fa-globe-europe"
+          },
+          "fact-3": {
+            "name": "turnover (in 2021)",
+            "value": "> 150M EUR",
+            "icon": "fa-analytics"
+          }
+        }
+      },
+      "companies": {
+        "company-header": {
+          "weidelco": {
+            "title": "Who is Weidelco?",
+            "texts": [
+              "Weidelco Foodpartners is a wholesaler with a total range of packaging, spices, cleaning agents, nets, artificial casings and equipment for the food sector in the Netherlands.",
+              "As a supplier, Weidelco offers fresh food entrepreneurs extra added value by developing new concepts and formulas and supporting them optimally with advice and assistance. In this way, customers can work on their own business in the field of assortment, efficiency, hygiene and promotion."
+            ],
+            "link": "https://www.weidelco.nl",
+            "cta": "More about Weidelco"
+          },
+          "claes-food-projects": {
+            "title": "Who is Claes Food Projects?",
+            "texts": [
+              "Claes Food Projects is the holding company above Claes Distribution, Claes Machines and Group Claes.",
+              "Each division is dedicated to its specific core tasks, but always with the same mission in mind: to guarantee the very best quality, offer excellent service and make full use of the team's expertise to think along with the customers. In this way, they in turn can grow successfully, now and in the future."
+            ],
+            "claes-distribution": {
+              "text-1": "With more than 14.000 products, the range of wholesaler Claes Distribution is simply impressive.",
+              "text-2": "Herbs, sauces, marinades, spices, foodstuffs, casings, packaging, products for hygiene and disinfection and supplies for shop, kitchen and workhouse: they offer it all! Thanks to optimal stock management, fast delivery is the standard.",
+              "cta": "More about Claes Distribution"
+            },
+            "claes-machines": {
+              "text-1": "Claes Machines is responsible for the sale and service of a wide range of equipment for the processing of meat, poultry, fish, vegetables and ready-made meals, among other things.",
+              "text-2": "The company distributes reliable leading brands and ensures a professional installation of each machine. Customers can also rely on Claes Machines for preventive maintenance, advice, overhauls, repairs and spare parts.",
+              "cta": "More about Claes Machines"
+            },
+            "groupclaes": {
+              "text-1": "The support services of Group Claes are indispensable for the smooth running of operations at Claes Machines and Claes Distribution. IT, finance, human resources, marketing and communication, among other things, are housed here.",
+              "text-2": "Group Claes has a modern infrastructure, uses the latest technologies and is constantly striving for improvement, efficiency and profitability. Naturally, the customers also reap the benefits of this efforts.",
+              "text-3": "",
+              "cta": "More about Group Claes"
+            }
+          },
+          "brabopak": {
+            "title": "Who is Brabopak?",
+            "texts": [
+              "Brabopak has been a wholesaler in the packaging business for over 30 years. The company specialises in customised packaging and printing (personalised bags, jars, lids, wrapping paper, etc.) for the retail and food sector.",
+              "With more than 10.000 products - of which 3.000 are in stock in a warehouse of approximately 6.300 m2 - Brabopak mainly targets supermarkets, caterers, bakers, butchers, fishmongers and other retailers. What are the strengths of the company? Actively thinking with the customer, offering continuous quality (BRC certificate obtained in 2015), ensuring fast delivery times and all that for the best price."
+            ],
+            "link": "https://www.brabopak.com",
+            "cta": "More about Brabopak"
+          },
+          "dumortier": {
+            "title": "Who is Dumortier?",
+            "texts": [
+              "Dumortier has been an established food wholesaler and supplier of all kinds of necessities to butchers, caterers and supermarkets for over 50 years. The range includes casings, herbs, marinades, packaging, knives and maintenance products. Both private individuals and professionals can count on the very best products at a competitive price."
+            ],
+            "link": "https://www.epices-dumortier.fr",
+            "cta": "More about Dumortier"
+          }
+        },
+        "company-fact": {
+          "locations": {
+            "title": "Branches",
+            "claes-food-projects": [
+              "1 branch in Paal-Beringen, Belgium"
+            ],
+            "brabopak": [
+              "1 branch in Wommelgem, Belgium"
+            ],
+            "weidelco": [
+              "4 branches in the Netherlands: Leeuwarden, Sittard, Tilburg & Zwolle"
+            ],
+            "dumortier": [
+              "2 branches in Roncq & Arras, France (region of Nord-Pas-de-Calais)"
+            ]
+          },
+          "management": {
+            "title": "Management",
+            "claes-food-projects": [
+              "Ronny Claes & Bart Verbeeck"
+            ],
+            "brabopak": [
+              "Robert De Clerck"
+            ],
+            "weidelco": [
+              "Huub Rolf, Hans Rolf & Eddy Rolf"
+            ],
+            "dumortier": [
+              "Thierry Dansette"
+            ]
+          },
+          "founding": {
+            "title": "Establishment",
+            "claes-food-projects": [
+              "1967"
+            ],
+            "brabopak": [
+              "1987"
+            ],
+            "weidelco": [
+              "1907"
+            ],
+            "dumortier": [
+              "1960"
+            ]
+          },
+          "team": {
+            "title": "Team",
+            "claes-food-projects": [
+              "> 150 employees"
+            ],
+            "brabopak": [
+              "> 20 employees"
+            ],
+            "weidelco": [
+              "> 135 employees"
+            ],
+            "dumortier": [
+              "> 15 employees"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

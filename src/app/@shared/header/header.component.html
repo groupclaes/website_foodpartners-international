@@ -5,24 +5,20 @@
     </a>
 
     <nav>
-      <a [routerLink]="['/'] | localize" fragment="index-about">Over de groep</a>
-      <a [routerLink]="['/'] | localize" fragment="index-sofindev">Contact</a>
+      <a [routerLink]="['/'] | localize" fragment="index-about" translate="shared.header.primary.nav.about"></a>
+      <a [routerLink]="['/'] | localize" fragment="index-sofindev" translate="shared.header.primary.nav.contact"></a>
     </nav>
   </div>
   <div class="header_secondary">
     <nav class="container">
-      <a [routerLink]="['/weidelco'] | localize" routerLinkActive="active">
-        Weidelco
-      </a>
-      <a [routerLink]="['/claes-food-projects'] | localize" routerLinkActive="active">
-        Claes Food Projects
-      </a>
-      <a [routerLink]="['/brabopak'] | localize" routerLinkActive="active">
-        Brabopak
-      </a>
-      <a [routerLink]="['/dumortier'] | localize" routerLinkActive="active">
-        Dumortier
-      </a>
+      <a [routerLink]="['/weidelco'] | localize" routerLinkActive="active"
+        translate="shared.header.primary.companies.company-1"></a>
+      <a [routerLink]="['/claes-food-projects'] | localize" routerLinkActive="active"
+        translate="shared.header.primary.companies.company-2"></a>
+      <a [routerLink]="['/brabopak'] | localize" routerLinkActive="active"
+        translate="shared.header.primary.companies.company-3"></a>
+      <a [routerLink]="['/dumortier'] | localize" routerLinkActive="active"
+        translate="shared.header.primary.companies.company-4"></a>
     </nav>
   </div>
 </header>

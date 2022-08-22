@@ -42,7 +42,19 @@
   },
   "shared": {
     "header": {
-      "title": "Foodpartners International"
+      "title": "Foodpartners International",
+      "primary": {
+        "companies": {
+          "company-1": "Weidelco",
+          "company-2": "Claes Food Projects",
+          "company-3": "Brabopak",
+          "company-4": "Dumortier"
+        },
+        "nav": {
+          "about": "Over de groep",
+          "contact": "Contact"
+        }
+      }
     },
     "footer": {
       "primary": {
@@ -125,11 +137,10 @@
             "logo": ""
           }
         },
-        "company-facts": {},
         "company-fact": {
           "fact-1": {
             "name": "medewerkers in dienst",
-            "value": "> 340",
+            "value": "> 320",
             "icon": "fa-users"
           },
           "fact-2": {
@@ -138,8 +149,8 @@
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "euro omzet (in 2021)",
-            "value": "> 150M",
+            "name": "omzet (in 2021)",
+            "value": "> 150M EUR",
             "icon": "fa-analytics"
           }
         },
@@ -165,7 +176,22 @@
             "texts": [
               "Claes Food Projects is de holding boven Claes Distribution, Claes Machines en Group Claes.",
               "Elke divisie legt zich vol overgave toe op haar specifieke kerntaken, maar steeds met eenzelfde missie voor ogen: de allerbeste kwaliteit garanderen, een uitstekende service bieden en de vakkennis van het team ten volle benutten om mee te denken met de klanten. Zo kunnen zij op hun beurt succesvol groeien, nu en in de toekomst."
-            ]
+            ],
+            "claes-distribution": {
+              "text-1": "Met meer dan 14.000 producten is het gamma van groothandel Claes Distribution ronduit indrukwekkend te noemen.",
+              "text-2": "Kruiden, sauzen, marinades, specerijen, voedingswaren, darmen, verpakkingen, producten voor hygiëne en ontsmetting en benodigdheden voor winkel, keuken en werkhuis: ze bieden het allemaal! Dankzij optimaal voorraadbeheer is een snelle levering de standaard.",
+              "cta": "Meer over Claes Distribution"
+            },
+            "claes-machines": {
+              "text-1": "Claes Machines staat in voor de verkoop en service van een ruim assortiment van toestellen voor de verwerking van o.a. vlees, gevogelte, vis, groenten en kant-en-klare maaltijden.",
+              "text-2": "Het bedrijf verdeelt betrouwbare toonaangevende merken en verzekert een professionele installatie van elke machine. Ook voor preventief onderhoud, advies, revisie, herstelling en onderdelen kunnen klanten steevast op Claes Machines rekenen.",
+              "cta": "Meer over Claes Machines"
+            },
+            "groupclaes": {
+              "text-1": "De ondersteunende diensten van Group Claes zijn onmisbaar voor een vlotte bedrijfsvoering bij Claes Machines en Claes Distribution. IT, finance, personeelszaken, marketing en communicatie vinden hier onder andere onderdak.",
+              "text-2": "Group Claes beschikt over een moderne infrastructuur, maken gebruik van de laatste technologieën en streeft permanent naar verbetering, efficiëntie en rendabiliteit. Daar plukken de klanten uiteraard ook de vruchten van.",
+              "cta": "Meer over Group Claes"
+            }
           },
           "brabopak": {
             "title": "Wie is Brabopak?",
@@ -198,7 +224,7 @@
               "4 vestigingen in Nederland: Leeuwarden, Sittard, Tilburg en Zwolle"
             ],
             "dumortier": [
-              "2 vestigingen in Roncq en Arras, Frankrijk (regio Nord-Pas-de-Calais)"
+              "2 vestigingen in Roncq & Arras, Frankrijk (regio Nord-Pas-de-Calais)"
             ]
           },
           "management": {
@@ -234,10 +260,10 @@
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 170 medewerkers in dienst"
+              "> 150 medewerkers in dienst"
             ],
             "brabopak": [
-              "> 15 medewerkers in dienst"
+              "> 20 medewerkers in dienst"
             ],
             "weidelco": [
               "> 135 medewerkers in dienst"

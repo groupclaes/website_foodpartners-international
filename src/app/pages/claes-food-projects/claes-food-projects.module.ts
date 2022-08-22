@@ -12,6 +12,7 @@ import { CompaniesModule } from 'src/app/core/components/companies/companies.mod
   imports: [
     CommonModule,
     CompaniesModule,
+    TranslateModule.forChild(),
     RouterModule.forChild([
       {
         path: '',
