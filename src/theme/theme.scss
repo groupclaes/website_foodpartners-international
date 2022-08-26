@@ -443,17 +443,17 @@ app-index {
 
       @media screen and (min-width: 60rem) {
         max-width: 50rem;
-        margin-left: calc((100% - 50rem)/2)
+        margin-left: calc((100% - 50rem) / 2)
       }
 
       @media screen and (min-width: 80rem) {
         max-width: 70rem;
-        margin-left: calc((100% - 70rem)/2)
+        margin-left: calc((100% - 70rem) / 2)
       }
 
       @media screen and (min-width: 120rem) {
         max-width: 95rem;
-        margin-left: calc((100% - 95rem)/2)
+        margin-left: calc((100% - 95rem) / 2)
       }
     }
   }
