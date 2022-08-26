@@ -1,3 +1,4 @@
+import { ActivatedRoute, Params } from '@angular/router';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
 
 @Component({
@@ -7,5 +8,13 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
   encapsulation: ViewEncapsulation.None
 })
 export class IndexComponent {
-  constructor() { }
+  constructor(private route: ActivatedRoute) {
+    this.route.queryParams.subscribe((param: Params) => {
+      setTimeout(() => {
+        if (param['section']) {
+          document.getElementById(param['section'])?.scrollIntoView()
+        }
+      }, 80)
+    })
+  }
 }

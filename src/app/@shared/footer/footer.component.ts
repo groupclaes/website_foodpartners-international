@@ -1,4 +1,6 @@
+import { environment } from 'src/environments/environment';
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -9,9 +11,16 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(private translate: TranslateService) { }
+  constructor(
+    private translate: TranslateService,
+    private localizeRouter: LocalizeRouterService
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  changeLanguage(language: string): void {
+    this.localizeRouter.changeLanguage(language)
   }
 
   get currentYear(): number {
@@ -20,5 +29,9 @@ export class FooterComponent implements OnInit {
 
   get culture(): string {
     return this.translate.currentLang
+  }
+
+  get languages(): string[] {
+    return environment.supportedLanguages
   }
 }

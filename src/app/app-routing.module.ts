@@ -4,6 +4,7 @@ import { NoPreloading, Route, RouterModule } from '@angular/router'
 
 export const routes: Route[] = [{
   path: '',
+  pathMatch: 'full',
   loadChildren: () => import('./pages/index/index.module').then(m => m.IndexModule),
   data: {
     title: 'pages.index.title',
@@ -56,9 +57,9 @@ export const routes: Route[] = [{
     RouterModule.forRoot(routes, {
       preloadingStrategy: NoPreloading,
       initialNavigation: 'enabledNonBlocking',
-      onSameUrlNavigation: 'ignore',
-      anchorScrolling: 'enabled',
-      scrollPositionRestoration: 'top',
+      onSameUrlNavigation: 'reload',
+      scrollPositionRestoration: 'enabled',
+      // enableTracing: true
     }),
   ],
   exports: [

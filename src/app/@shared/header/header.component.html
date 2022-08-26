@@ -5,8 +5,10 @@
     </a>
 
     <nav>
-      <a [routerLink]="['/'] | localize" fragment="index-about" translate="shared.header.primary.nav.about"></a>
-      <a [routerLink]="['/'] | localize" fragment="index-sofindev" translate="shared.header.primary.nav.contact"></a>
+      <a [routerLink]="['/'] | localize" [queryParams]="{section: 'index-about'}"
+        translate="shared.header.primary.nav.about"></a>
+      <a [routerLink]="['/'] | localize" [queryParams]="{section: 'index-sofindev'}"
+        translate="shared.header.primary.nav.contact"></a>
     </nav>
   </div>
   <div class="header_secondary">

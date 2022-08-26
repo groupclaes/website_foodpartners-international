@@ -32,10 +32,12 @@ export function localizeLoaderFactory(translate: TranslateService, location: Loc
         deps: [HttpClient]
       }
     }),
-    LocalizeRouterModule.forRoot(routes, {
+    LocalizeRouterModule.forRoot([...routes, {
+      path: '**',
+      loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
+    }], {
       cacheName: 'language',
       useCachedLang: false,
-      //initialNavigation: true,
       parser: {
         provide: LocalizeParser,
         useFactory: localizeLoaderFactory,

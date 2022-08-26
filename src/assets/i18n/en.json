@@ -1,6 +1,10 @@
 {
   "ROUTES": {
-    "": ""
+    "": "",
+    "weidelco": "weidelco",
+    "claes-food-projects": "claes-food-projects",
+    "brabopak": "brabopak",
+    "dumortier": "dumortier"
   },
   "pages": {
     "index": {
@@ -192,8 +196,8 @@
           "brabopak": {
             "title": "Who is Brabopak?",
             "texts": [
-              "Brabopak has been a wholesaler in the packaging business for over 30 years. The company specialises in customised packaging and printing (personalised bags, jars, lids, wrapping paper, etc.) for the retail and food sector.",
-              "With more than 10.000 products - of which 3.000 are in stock in a warehouse of approximately 6.300 m2 - Brabopak mainly targets supermarkets, caterers, bakers, butchers, fishmongers and other retailers. What are the strengths of the company? Actively thinking with the customer, offering continuous quality (BRC certificate obtained in 2015), ensuring fast delivery times and all that for the best price."
+              "Brabopak has been a wholesaler in the packaging business for over 30 years. The company specialises in customised packaging and printing (personalised bags, jars, lids, wrapping paper, etc.) for the retail and food sector. Through years of experience, the Brabopak team has acquired the knowledge and expertise to guide customers optimally through their purchasing process.",
+              "With more than 10.000 products - of which 3.000 are in stock in a warehouse of approximately 6.300 m2 - Brabopak focuses mainly on supermarkets, caterers, bakers, butchers, fishmongers and the food industry. What are the strengths of the company? Actively thinking along with the customer, offering continuous quality (BRC certified), ensuring fast delivery times and all that for the best price."
             ],
             "link": "https://www.brabopak.com",
             "cta": "More about Brabopak"

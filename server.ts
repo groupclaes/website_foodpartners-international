@@ -59,15 +59,16 @@ export function app(): express.Express {
   // Default route with accept-language redirect
   server.get('/', (req: any, res: any) => {
     const defaultLang = 'nl'
-    const lang = req.acceptsLanguages('nl', 'fr', 'de')
+    const lang = req.acceptsLanguages('nl', 'fr', 'en')
 
     const definedLang = lang || defaultLang
 
-    res.redirect(301, `/${definedLang}/`)
+    res.redirect(301, `/${definedLang}`)
   })
 
   // oad translated routes used by LocalizeRouter
   data.forEach((route: string) => {
+    console.log('registering', `/${route}`)
     server.get(`/${route}`, ngApp)
     server.get(`/${route}/*`, ngApp)
   })

@@ -1,6 +1,10 @@
 {
   "ROUTES": {
-    "": ""
+    "": "",
+    "weidelco": "weidelco",
+    "claes-food-projects": "claes-food-projects",
+    "brabopak": "brabopak",
+    "dumortier": "dumortier"
   },
   "pages": {
     "index": {
@@ -93,7 +97,7 @@
         },
         "index-companies": {
           "title": "Forts ensemble, à travers les frontières",
-          "text": "Apprenez à connaître les entreprises membres par pays."
+          "text": "Voici les membres entreprises par pays :"
         },
         "index-supplier": {
           "title": "Distributeurs exclusifs de marques fortes",
@@ -193,8 +197,8 @@
           "brabopak": {
             "title": "Brabopak, qui est-ce ?",
             "texts": [
-              "Brabopak est actif en tant que grossiste en emballages depuis plus de 30 ans. L'entreprise est spécialisée dans l'emballage et l'impression personnalisés (sacs, pots, couvercles, papier d'emballage, etc.) pour le secteur de la vente au détail et de l'alimentation.",
-              "Avec plus de 10.000 produits - dont 3.000 sont en stock dans un entrepôt d'environ 6.300 m2 - Brabopak s'adresse principalement aux supermarchés, aux traiteurs, aux boulangers, aux bouchers, aux poissonniers et autres détaillants. Quels sont les points forts de l'entreprise ? Penser activement avec le client, offrir une qualité continue (certificat BRC obtenu en 2015), assurer des délais de livraison rapides et tout cela au meilleur prix."
+              "Brabopak est actif en tant que grossiste en emballages depuis plus de 30 ans. L'entreprise est spécialisée dans l'emballage et l'impression personnalisés (sacs, pots, couvercles, papier d'emballage, etc.) pour le secteur de la vente au détail et de l'alimentation. Grâce à des années d'expérience, l'équipe de Brabopak dispose des connaissances et de l'expertise nécessaires pour guider les clients de manière optimale tout au long du processus d'achat.",
+              "Avec plus de 10.000 produits - dont 3.000 sont en stock dans un entrepôt d'environ 6 300 m2 - Brabopak se concentre principalement sur les supermarchés, les traiteurs, les boulangers, les bouchers, les poissonniers et l'industrie alimentaire. Quels sont les points forts de l'entreprise ? Penser activement avec le client, offrir une qualité continue (avec certification BRC), assurer des délais de livraison rapides et tout cela au meilleur prix."
             ],
             "link": "https://www.brabopak.com",
             "cta": "En savoir plus sur Brabopak"

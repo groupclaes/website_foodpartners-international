@@ -1,6 +1,10 @@
 {
   "ROUTES": {
-    "": ""
+    "": "",
+    "weidelco": "weidelco",
+    "claes-food-projects": "claes-food-projects",
+    "brabopak": "brabopak",
+    "dumortier": "dumortier"
   },
   "pages": {
     "index": {
@@ -196,8 +200,8 @@
           "brabopak": {
             "title": "Wie is Brabopak?",
             "texts": [
-              "Brabopak is als groothandel al meer dan 30 jaar actief in de verpakkingswereld. Het bedrijf is gespecialiseerd in verpakkingen en bedrukkingen op maat (gepersonaliseerde zakken, potjes, deksels, inpakpapier ...) voor de retail- en foodsector.",
-              "Met meer dan 10.000 producten - waarvan 3.000 op voorraad in een magazijn van circa 6.300 m2 – richt Brabopak zich vooral op supermarkten, traiteurs, bakkers, slagers, vishandels en andere handelszaken. Wat zijn de sterktes van het bedrijf? Actief meedenken met de klant, continue kwaliteit aanbieden (BRC-certificaat behaald in 2015), snelle levertijden verzekeren en dat tegen de beste prijs."
+              "Brabopak is als groothandel al meer dan 30 jaar actief in de verpakkingswereld. Het bedrijf is gespecialiseerd in verpakkingen en bedrukkingen op maat (gepersonaliseerde zakken, potjes, deksels, inpakpapier …) voor de retail- en foodsector. Door de jarenlange ervaring beschikt het team van Brabopak over de kennis en expertise om klanten optimaal te begeleiden in hun aankoopproces.",
+              "Met meer dan 10.000 producten - waarvan 3.000 op voorraad in een magazijn van circa 6.300 m2 - richt Brabopak zich vooral op supermarkten, traiteurs, bakkers, slagers, vishandels en de voedingsindustrie. Wat zijn de sterktes van het bedrijf? Actief meedenken met de klant, continue kwaliteit aanbieden (BRC-gecertificeerd), snelle levertijden verzekeren en dat tegen de beste prijs."
             ],
             "link": "https://www.brabopak.com",
             "cta": "Meer over Brabopak"

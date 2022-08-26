@@ -9,7 +9,7 @@
       {{ 'core.components.index.index-header.text-2' | translate }}
       <br>
 
-      <a class="button" [routerLink]="['/'] | localize" fragment="index-about">
+      <a class="button" [routerLink]="['/'] | localize" [queryParams]="{section: 'index-about'}">
         {{ 'core.components.index.index-header.cta' | translate }}
         <i class="fal fa-arrow-right"></i>
       </a>
