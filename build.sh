@@ -21,5 +21,5 @@ docker build -t "${docker_reg}/${docker_company}_${PACKAGE_NAME}:${docker_tag}" 
 
 echo "Last runtime: $(date)"
 
-docker image prune --filter label=stage=build --force
+docker image prune --filter label="stage=build" --force
 echo "removed build stage image"
