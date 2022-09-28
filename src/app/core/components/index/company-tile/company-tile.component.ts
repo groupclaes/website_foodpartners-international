@@ -27,6 +27,6 @@ export class CompanyTileComponent {
   get srcSet(): string | undefined {
     if (this.name !== 'dumortier')
       return `/assets/images/logo-${this.name}_640x235.svg 2000w, /assets/images/logo-${this.name}_480x176.svg 100w`
-    return undefined
+    return `/assets/images/logo-${this.name}.png`
   }
 }
