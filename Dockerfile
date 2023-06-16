@@ -20,6 +20,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install and cache app dependencies
 COPY package.json /app/package.json
 COPY package-lock.json /app/package-lock.json
+ENV NODE_ENV test
 RUN npm ci --legacy-peer-deps
 
 # add app
@@ -30,6 +31,7 @@ COPY . /app
 # RUN ng e2e --port 4202
 
 # generate build
+ENV NODE_ENV production
 RUN npm run build:ssr
 
 ############
