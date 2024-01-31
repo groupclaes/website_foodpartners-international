@@ -1,4 +1,4 @@
-import { SharedModule } from './@shared/@shared.module';
+import { SharedModule } from './@shared/@shared.module'
 import { environment } from 'src/environments/environment'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core'

@@ -1,7 +1,7 @@
-import { environment } from 'src/environments/environment';
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { LocalizeRouterService } from '@gilsdav/ngx-translate-router';
-import { TranslateService } from '@ngx-translate/core';
+import { environment } from 'src/environments/environment'
+import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core'
+import { LocalizeRouterService } from '@gilsdav/ngx-translate-router'
+import { TranslateService } from '@ngx-translate/core'
 
 @Component({
   selector: 'app-footer',

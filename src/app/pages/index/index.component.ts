@@ -1,4 +1,4 @@
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router'
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
 
 @Component({

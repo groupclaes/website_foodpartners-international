@@ -1,5 +1,5 @@
-import { TranslateService } from '@ngx-translate/core';
-import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core'
+import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core'
 
 @Component({
   selector: 'app-company-fact',
