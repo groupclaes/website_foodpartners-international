@@ -3,7 +3,7 @@
 #############
 
 # base image
-FROM docker-registry.groupclaes.be/node-npm as build
+FROM --platform=linux/amd64 groupclaes/npm AS build
 LABEL stage=build
 
 # install chrome for protractor tests
@@ -19,9 +19,8 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /app/package.json
-COPY package-lock.json /app/package-lock.json
 ENV NODE_ENV test
-RUN npm ci --legacy-peer-deps
+RUN npm i
 
 # add app
 COPY . /app
@@ -39,7 +38,7 @@ RUN npm run build:ssr
 ############
 
 # base image
-FROM docker-registry.groupclaes.be/node-base:latest
+FROM --platform=linux/amd64 groupclaes/node AS release
 
 # copy artifact build from the 'build environment'
 COPY --from=build /app/dist /app/dist
