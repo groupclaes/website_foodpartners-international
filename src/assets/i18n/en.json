@@ -144,17 +144,17 @@
         "company-fact": {
           "fact-1": {
             "name": "employees",
-            "value": "> 320",
+            "value": "> 385",
             "icon": "fa-users"
           },
           "fact-2": {
             "name": "locations in 3 countries",
-            "value": "8",
+            "value": "7",
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "turnover (in 2022)",
-            "value": "> 163M EUR",
+            "name": "turnover (in 2023)",
+            "value": "> 172,5M EUR",
             "icon": "fa-analytics"
           }
         }
@@ -233,7 +233,7 @@
               "Ronny Claes & Bart Verbeeck"
             ],
             "brabopak": [
-              "Robert De Clerck"
+              "Bart Verbeeck"
             ],
             "weidelco": [
               "Huub Rolf, Hans Rolf & Eddy Rolf"
@@ -260,16 +260,16 @@
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 150 employees"
+              "> 174 employees"
             ],
             "brabopak": [
-              "> 20 employees"
+              "> 22 employees"
             ],
             "weidelco": [
-              "> 135 employees"
+              "> 174 employees"
             ],
             "dumortier": [
-              "> 15 employees"
+              "> 17 employees"
             ]
           }
         }
