@@ -1,6 +1,6 @@
 import { SharedModule } from './@shared/@shared.module'
 import { environment } from 'src/environments/environment'
-import { HttpClient, HttpClientModule } from '@angular/common/http'
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 import { NgModule } from '@angular/core'
 import { Location } from '@angular/common'
 import { BrowserModule } from '@angular/platform-browser'
@@ -15,37 +15,30 @@ export function localizeLoaderFactory(translate: TranslateService, location: Loc
   return new ManualParserLoader(translate, location, settings, environment.supportedLanguages, 'ROUTES.', '!')
 }
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    HttpClientModule,
-    AppRoutingModule,
-    SharedModule,
-    TranslateModule.forRoot({
-      useDefaultLang: false,
-      loader: {
-        provide: TranslateLoader,
-        useFactory: translateBrowserLoaderFactory,
-        deps: [HttpClient]
-      }
-    }),
-    LocalizeRouterModule.forRoot([...routes, {
-      path: '**',
-      loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
-    }], {
-      cacheName: 'language',
-      useCachedLang: false,
-      parser: {
-        provide: LocalizeParser,
-        useFactory: localizeLoaderFactory,
-        deps: [TranslateService, Location, LocalizeRouterSettings]
-      }
-    })
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }),
+        AppRoutingModule,
+        SharedModule,
+        TranslateModule.forRoot({
+            useDefaultLang: false,
+            loader: {
+                provide: TranslateLoader,
+                useFactory: translateBrowserLoaderFactory,
+                deps: [HttpClient]
+            }
+        }),
+        LocalizeRouterModule.forRoot([...routes, {
+                path: '**',
+                loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
+            }], {
+            cacheName: 'language',
+            useCachedLang: false,
+            parser: {
+                provide: LocalizeParser,
+                useFactory: localizeLoaderFactory,
+                deps: [TranslateService, Location, LocalizeRouterSettings]
+            }
+        })], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
