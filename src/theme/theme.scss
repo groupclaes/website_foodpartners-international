@@ -1,5 +1,8 @@
-@import './theme-variables.scss';
-@import './theme-button.scss';
+@forward './theme-variables';
+@forward './theme-button';
+
+@use './theme-button';
+@use './theme-variables';
 
 @font-face {
   font-family: Fedra;

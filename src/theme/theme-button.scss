@@ -71,11 +71,11 @@ input[type=button] {
   }
 
   &:hover {
+    color: white;
+
     &:before {
       transform: translateX(0)
     }
-
-    color: white;
 
     i.fa-arrow-right {
       transform: translateX(.5em)

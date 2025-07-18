@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnInit, ViewEncapsulation } from '@angular/core'
+import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnInit, ViewEncapsulation, DOCUMENT } from '@angular/core'
 import { TranslateService } from '@ngx-translate/core'
-import { DOCUMENT } from '@angular/common'
+
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router'
 import { filter, map, mergeMap } from 'rxjs'
 import { MetaService } from './@shared/services/meta.service'
