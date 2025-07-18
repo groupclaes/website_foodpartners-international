@@ -1,7 +1,7 @@
 import { SharedModule } from './@shared/@shared.module'
 import { environment } from 'src/environments/environment'
 import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
-import { NgModule } from '@angular/core'
+import { APP_ID, NgModule } from '@angular/core'
 import { Location } from '@angular/common'
 import { BrowserModule } from '@angular/platform-browser'
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core'
@@ -12,13 +12,16 @@ import { AppRoutingModule, routes } from './app-routing.module'
 import { LocalizeParser, LocalizeRouterModule, LocalizeRouterSettings, ManualParserLoader } from '@gilsdav/ngx-translate-router'
 
 export function localizeLoaderFactory(translate: TranslateService, location: Location, settings: LocalizeRouterSettings) {
-  return new ManualParserLoader(translate, location, settings, environment.supportedLanguages, 'ROUTES.', '!')
+    return new ManualParserLoader(translate, location, settings, environment.supportedLanguages, 'ROUTES.', '!')
 }
 
-@NgModule({ declarations: [
+@NgModule({
+    declarations: [
         AppComponent
     ],
-    bootstrap: [AppComponent], imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
         AppRoutingModule,
         SharedModule,
         TranslateModule.forRoot({
@@ -30,9 +33,9 @@ export function localizeLoaderFactory(translate: TranslateService, location: Loc
             }
         }),
         LocalizeRouterModule.forRoot([...routes, {
-                path: '**',
-                loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
-            }], {
+            path: '**',
+            loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
+        }], {
             cacheName: 'language',
             useCachedLang: false,
             parser: {
@@ -40,5 +43,11 @@ export function localizeLoaderFactory(translate: TranslateService, location: Loc
                 useFactory: localizeLoaderFactory,
                 deps: [TranslateService, Location, LocalizeRouterSettings]
             }
-        })], providers: [provideHttpClient(withInterceptorsFromDi())] })
+        })
+    ],
+    providers: [
+        { provide: APP_ID, useValue: 'serverApp' },
+        provideHttpClient(withInterceptorsFromDi())
+    ]
+})
 export class AppModule { }

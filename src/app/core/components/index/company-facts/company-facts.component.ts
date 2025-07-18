@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-company-facts',
-  templateUrl: './company-facts.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-facts',
+    templateUrl: './company-facts.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class CompanyFactsComponent implements OnInit {
 
