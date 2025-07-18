@@ -34,7 +34,7 @@
     "weidelco": {
       "title": "Weidelco, food partners in the Netherlands",
       "description": " artificial casings and equipment for the food sector in the Netherlands.",
-      "keywords": " artificial casings, equipment, food industry, Netherlands, Leeuwarden, Sittard, Tilburg, Zwolle",
+      "keywords": " artificial casings, equipment, food industry, Netherlands, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
     },
     "contact": {
@@ -153,8 +153,8 @@
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "turnover (in 2023)",
-            "value": "> 172,5M EUR",
+            "name": "turnover (in 2024)",
+            "value": "> 173,46M EUR",
             "icon": "fa-analytics"
           }
         }
@@ -221,7 +221,7 @@
               "1 branch in Wommelgem, Belgium"
             ],
             "weidelco": [
-              "4 branches in the Netherlands: Leeuwarden, Sittard, Tilburg & Zwolle"
+              "4 branches in the Netherlands: Leeuwarden, Sittard, Gilze & Zwolle"
             ],
             "dumortier": [
               "1 branch in France (region of Nord-Pas-de-Calais)"
@@ -260,16 +260,16 @@
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 174 employees"
+              "> 182 employees"
             ],
             "brabopak": [
-              "> 22 employees"
+              "> 23 employees"
             ],
             "weidelco": [
-              "> 174 employees"
+              "> 182 employees"
             ],
             "dumortier": [
-              "> 17 employees"
+              "> 20 employees"
             ]
           }
         }

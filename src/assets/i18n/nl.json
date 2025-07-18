@@ -34,7 +34,7 @@
     "weidelco": {
       "title": "Weidelco, foodpartners van Nederland",
       "description": "Als groothandel verdeelt Weidelco een totaalassortiment van verpakkingen, specerijen, reinigingsmiddelen, netten, kunstdarmen en apparatuur voor de foodbranche in Nederland.",
-      "keywords": "groothandel, winkel, B2B, totaalleverancier, versondernemer, verpakkingen, kruiden, reinigingsmiddelen, netten, kunstdarmen, apparatuur, foodindustrie, Nederland, Leeuwarden, Sittard, Tilburg, Zwolle",
+      "keywords": "groothandel, winkel, B2B, totaalleverancier, versondernemer, verpakkingen, kruiden, reinigingsmiddelen, netten, kunstdarmen, apparatuur, foodindustrie, Nederland, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
     },
     "contact": {
@@ -144,7 +144,7 @@
         "company-fact": {
           "fact-1": {
             "name": "medewerkers in dienst",
-            "value": "> 385",
+            "value": "> 407",
             "icon": "fa-users"
           },
           "fact-2": {
@@ -153,8 +153,8 @@
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "omzet (in 2023)",
-            "value": "> 172,5M EUR",
+            "name": "omzet (in 2024)",
+            "value": "> 173,46M EUR",
             "icon": "fa-analytics"
           }
         },
@@ -225,7 +225,7 @@
               "1 vestiging in Wommelgem, België"
             ],
             "weidelco": [
-              "4 vestigingen in Nederland: Leeuwarden, Sittard, Tilburg en Zwolle"
+              "4 vestigingen in Nederland: Leeuwarden, Sittard, Gilze en Zwolle"
             ],
             "dumortier": [
               "1 vestiging in Roncq, Frankrijk (regio Nord-Pas-de-Calais)"
@@ -264,16 +264,16 @@
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 174 medewerkers in dienst"
+              "> 182 medewerkers in dienst"
             ],
             "brabopak": [
-              "> 22 medewerkers in dienst"
+              "> 23 medewerkers in dienst"
             ],
             "weidelco": [
-              "> 174 medewerkers in dienst"
+              "> 182 medewerkers in dienst"
             ],
             "dumortier": [
-              "> 17 medewerkers in dienst"
+              "> 20 medewerkers in dienst"
             ]
           }
         }

@@ -34,7 +34,7 @@
     "weidelco": {
       "title": "Weidelco, partenaires alimentaires des Pays-Bas",
       "description": "En tant que grossiste, Weidelco distribue une gamme complète d'emballages, d'épices, de produits de nettoyage, de filets, de boyaux artificiels et d'équipements pour l'industrie alimentaire aux Pays- Bas.",
-      "keywords": "grossiste, magasin, B2B, fournisseur total, entrepreneur en produits frais, emballages, épices, produits de nettoyage, filets, boyaux artificiels, équipement, industrie alimentaire, Pays-Bas, Leeuwarden, Sittard, Tilburg, Zwolle",
+      "keywords": "grossiste, magasin, B2B, fournisseur total, entrepreneur en produits frais, emballages, épices, produits de nettoyage, filets, boyaux artificiels, équipement, industrie alimentaire, Pays-Bas, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
     },
     "contact": {
@@ -154,8 +154,8 @@
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "chiffre d'affaires (en 2023)",
-            "value": "> 172,5M EUR",
+            "name": "chiffre d'affaires (en 2024)",
+            "value": "> 173,46M EUR",
             "icon": "fa-analytics"
           }
         }
@@ -223,7 +223,7 @@
               "1 succursale à Wommelgem, Belgique"
             ],
             "weidelco": [
-              "4 succursales aux Pays-Bas : Leeuwarden, Sittard, Tilburg & Zwolle"
+              "4 succursales aux Pays-Bas : Leeuwarden, Sittard, Gilze & Zwolle"
             ],
             "dumortier": [
               "1 succursale à Roncq, France (region Nord-Pas-de-Calais)"
@@ -262,16 +262,16 @@
           "team": {
             "title": "Équipe",
             "claes-food-projects": [
-              "> 174 employés"
+              "> 182 employés"
             ],
             "brabopak": [
-              "> 22 employés"
+              "> 23 employés"
             ],
             "weidelco": [
-              "> 174 employés"
+              "> 182 employés"
             ],
             "dumortier": [
-              "> 17 employés"
+              "> 20 employés"
             ]
           }
         }
