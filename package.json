@@ -6,7 +6,11 @@
     "start": "ng serve --host 0.0.0.0 --disable-host-check",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "dev:ssr": "ng run website:serve-ssr",
+    "serve:ssr": "node dist/website/server/main.js",
+    "build:ssr": "ng build && ng run website:server",
+    "prerender": "ng run website:prerender"
   },
   "private": true,
   "dependencies": {

@@ -2,6 +2,7 @@ import { join } from 'path'
 import { Observable } from 'rxjs'
 import { TranslateLoader } from '@ngx-translate/core'
 import * as fs from 'fs'
+import { environment } from 'src/environments/environment'
 
 export class TranslateServerLoader implements TranslateLoader {
   constructor(
@@ -12,13 +13,11 @@ export class TranslateServerLoader implements TranslateLoader {
 
   public getTranslation(lang: string): Observable<any> {
     return new Observable((observer) => {
-      const assetsFolder = join(
-        process.cwd(),
-        'dist',
-        'browser',
-        'assets',
-        this.prefix,
-      )
+        const assetsFolder = join(
+          process.cwd(),
+           environment.production ? join('dist', 'browser') : 'public',
+          'assets',
+          this.prefix)
 
       const jsonData = JSON.parse(
         fs.readFileSync(`${assetsFolder}/${lang}${this.suffix}`, 'utf8'),

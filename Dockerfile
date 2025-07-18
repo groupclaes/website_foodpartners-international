@@ -3,7 +3,7 @@
 #############
 
 # base image
-FROM --platform=linux/amd64 groupclaes/npm AS build
+FROM groupclaes/npm AS build
 LABEL stage=build
 
 # install chrome for protractor tests
@@ -15,11 +15,11 @@ LABEL stage=build
 WORKDIR /app
 
 # add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH=/app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /app/package.json
-ENV NODE_ENV test
+ENV NODE_ENV=test
 RUN npm i
 
 # add app
@@ -30,7 +30,7 @@ COPY . /app
 # RUN ng e2e --port 4202
 
 # generate build
-ENV NODE_ENV production
+ENV NODE_ENV=production
 RUN npm run build:ssr
 
 ############
@@ -38,7 +38,7 @@ RUN npm run build:ssr
 ############
 
 # base image
-FROM --platform=linux/amd64 groupclaes/node AS release
+FROM groupclaes/node AS release
 
 # copy artifact build from the 'build environment'
 COPY --from=build /app/dist /app/dist
