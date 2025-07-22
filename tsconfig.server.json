@@ -3,7 +3,8 @@
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
     "outDir": "./out-tsc/server",
-    "target": "es2019",
+    "target": "es2022",
+    "esModuleInterop": true,
     "types": [
       "node"
     ]

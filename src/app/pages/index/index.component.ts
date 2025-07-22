@@ -2,10 +2,11 @@ import { ActivatedRoute, Params } from '@angular/router'
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-index',
-  templateUrl: './index.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-index',
+    templateUrl: './index.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class IndexComponent {
   constructor(private route: ActivatedRoute) {

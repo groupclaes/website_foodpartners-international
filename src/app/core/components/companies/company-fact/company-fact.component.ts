@@ -2,10 +2,11 @@ import { TranslateService } from '@ngx-translate/core'
 import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-company-fact',
-  templateUrl: './company-fact.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-fact',
+    templateUrl: './company-fact.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class CompanyFactComponent implements OnInit {
   @Input() public company: string | undefined

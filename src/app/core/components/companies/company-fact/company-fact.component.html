@@ -4,6 +4,8 @@
     {{ 'core.components.companies.company-fact.' + name + '.title' | translate }}
   </h2>
   <div>
-    <p *ngFor="let text of texts">{{text}}</p>
+    @for (text of texts; track text) {
+      <p>{{text}}</p>
+    }
   </div>
 </div>

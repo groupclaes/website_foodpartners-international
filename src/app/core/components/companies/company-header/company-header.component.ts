@@ -2,10 +2,11 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
 import { TranslateService } from '@ngx-translate/core'
 
 @Component({
-  selector: 'app-company-header',
-  templateUrl: './company-header.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-header',
+    templateUrl: './company-header.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class CompanyHeaderComponent {
   @Input() name: string | undefined

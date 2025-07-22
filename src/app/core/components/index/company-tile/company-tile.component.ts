@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
 @Component({
-  selector: 'app-company-tile',
-  templateUrl: './company-tile.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-tile',
+    templateUrl: './company-tile.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class CompanyTileComponent {
   @Input() name: string | undefined

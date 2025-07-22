@@ -15,6 +15,6 @@ if (environment.production) {
   enableProdMode()
 }
 
-import { AppServerModule } from './app/app.server.module'
-export default AppServerModule
+import { AppServerModule  } from './app/app.server.module'
 
+export default AppServerModule
