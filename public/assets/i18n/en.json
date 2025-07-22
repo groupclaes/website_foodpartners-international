@@ -144,7 +144,7 @@
         "company-fact": {
           "fact-1": {
             "name": "employees",
-            "value": "> 385",
+            "value": "> 407",
             "icon": "fa-users"
           },
           "fact-2": {
