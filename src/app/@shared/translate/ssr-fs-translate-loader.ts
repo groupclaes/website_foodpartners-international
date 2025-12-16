@@ -1,6 +1,6 @@
 import { TranslateLoader, TranslationObject } from "@ngx-translate/core";
-import { readFileSync } from "fs";
-import path from "path";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import { Observable, of } from "rxjs";
 import { environment } from "src/environments/environment";
 
@@ -8,7 +8,6 @@ const I18N_FOLDER = path.resolve(process.cwd(), 'dist', 'website', 'browser', 'a
 
 
 export class SsrFsTranslateLoader implements TranslateLoader {
-  constructor() {}
 
   getTranslation(lang: string): Observable<TranslationObject> {
     const contents = JSON.parse(readFileSync(`${I18N_FOLDER}/${lang}.json`, 'utf8'));

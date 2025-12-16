@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment';
 @Injectable()
 export class SsrLoopbackInterceptor implements HttpInterceptor {
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private readonly platformId: Object
   ) {}
 
   intercept(req: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {

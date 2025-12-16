@@ -12,10 +12,4 @@ import { TranslateModule } from '@ngx-translate/core'
     standalone: true,
     imports: [TranslateModule, CompanyBannerComponent, CompanyHeaderComponent, CompanyFactComponent]
 })
-export class ClaesFoodProjectsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-}
+export class ClaesFoodProjectsComponent {}

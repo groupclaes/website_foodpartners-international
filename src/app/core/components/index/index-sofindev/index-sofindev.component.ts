@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { TranslateModule } from '@ngx-translate/core'
+import { TranslatePipe } from '@ngx-translate/core'
 
 @Component({
     selector: 'app-index-sofindev',
@@ -8,7 +8,7 @@ import { TranslateModule } from '@ngx-translate/core'
         ':host { display: block }'
     ],
     standalone: true,
-    imports: [TranslateModule]
+    imports: [TranslatePipe]
 })
 export class IndexSofindevComponent {
   constructor() { }

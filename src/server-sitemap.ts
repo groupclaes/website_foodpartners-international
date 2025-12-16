@@ -21,6 +21,8 @@ export function getApplicationRoutes(): ISitemapRoute[] {
     ? resolve(dirname(fileURLToPath(import.meta.url)), '../browser', 'assets')
     : 'public/assets'
 
+  console.log(assetsFolder)
+
   for (const language of environment.supportedLanguages) {
     languageRoutes[language] = JSON.parse(readFileSync(`${assetsFolder}/i18n/${language}.json`, 'utf8')).ROUTES
   }

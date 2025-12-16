@@ -23,7 +23,8 @@ import { IndexSupplierComponent } from 'src/app/core/components/index/index-supp
     ]
 })
 export class IndexComponent {
-  constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document) {
+  constructor(private readonly route: ActivatedRoute,
+    @Inject(DOCUMENT) private readonly document: Document) {
     this.route.queryParams.subscribe((param: Params) => {
       setTimeout(() => {
         if (param['section']) {

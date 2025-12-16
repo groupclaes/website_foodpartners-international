@@ -1,11 +1,11 @@
 <div class="container">
   <h2 class="white-space-pre mt-4">
     <i class="fal fa-fw {{ icon }}"></i>
-    {{ 'core.components.companies.company-fact.' + name + '.title' | translate }}
+    <span translate>{{ `core.components.companies.company-fact.${name}.title` }}</span>
   </h2>
   <div>
     @for (text of texts; track text) {
-      <p>{{text}}</p>
+      <p>{{ text }}</p>
     }
   </div>
 </div>

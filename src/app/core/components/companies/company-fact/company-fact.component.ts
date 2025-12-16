@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core'
+import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
 import { TranslateModule, TranslateService } from '@ngx-translate/core'
 
 @Component({
@@ -9,16 +9,11 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core'
     standalone: true,
     imports: [TranslateModule]
 })
-export class CompanyFactComponent implements OnInit {
+export class CompanyFactComponent {
   @Input() public company: string | undefined
   @Input() public name: string | undefined
 
-  constructor(
-    public translate: TranslateService
-  ) { }
-
-  ngOnInit(): void {
-  }
+  constructor(public readonly translate: TranslateService) { }
 
   get icon(): string {
     switch (this.name) {

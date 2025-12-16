@@ -15,12 +15,12 @@ import { MetaService } from './@shared/services/meta.service'
 })
 export class App implements OnInit {
   constructor(
-    private _elementRef: ElementRef,
-    private translateService: TranslateService,
-    private router: Router,
-    private activatedRoute: ActivatedRoute,
-    private metaService: MetaService,
-    @Inject(DOCUMENT) private document: Document
+    private readonly _elementRef: ElementRef,
+    private readonly translateService: TranslateService,
+    private readonly router: Router,
+    private readonly activatedRoute: ActivatedRoute,
+    private readonly metaService: MetaService,
+    @Inject(DOCUMENT) private readonly document: Document
   ) {
     this.document.documentElement.lang = this.translateService.currentLang
   }

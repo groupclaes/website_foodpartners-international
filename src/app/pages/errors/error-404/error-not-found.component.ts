@@ -10,6 +10,4 @@ import { LocalizeRouterPipe } from '@irector/ngx-translate-router'
     standalone: true,
     imports: [RouterLink, LocalizeRouterPipe]
 })
-export class ErrorNotFoundComponent {
-  constructor() { }
-}
+export class ErrorNotFoundComponent {}

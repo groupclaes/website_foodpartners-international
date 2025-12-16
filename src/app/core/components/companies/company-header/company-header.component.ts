@@ -12,15 +12,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core'
 export class CompanyHeaderComponent {
   @Input() name: string | undefined
 
-  constructor(private translate: TranslateService) { }
-
-  get title(): string {
-    return `core.components.companies.company-header.${this.name}.title`
-  }
-
-  get cta(): string {
-    return `core.components.companies.company-header.${this.name}.cta`
-  }
+  constructor(private readonly translate: TranslateService) { }
 
   get link(): string | undefined {
     const url = this.translate.instant(`core.components.companies.company-header.${this.name}.link`)
