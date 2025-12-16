@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
-import { TranslateModule } from '@ngx-translate/core'
+import { TranslatePipe } from '@ngx-translate/core'
 import { CompanyTilesComponent } from '../company-tiles/company-tiles.component'
 
 @Component({
@@ -8,8 +8,6 @@ import { CompanyTilesComponent } from '../company-tiles/company-tiles.component'
     changeDetection: ChangeDetectionStrategy.OnPush,
     encapsulation: ViewEncapsulation.None,
     standalone: true,
-    imports: [TranslateModule, CompanyTilesComponent]
+    imports: [TranslatePipe, CompanyTilesComponent]
 })
-export class IndexCompaniesComponent {
-  constructor() { }
-}
+export class IndexCompaniesComponent { }

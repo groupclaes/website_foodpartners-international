@@ -1,9 +1,9 @@
 import { environment } from 'src/environments/environment'
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
-import { LocalizeRouterModule, LocalizeRouterService } from '@irector/ngx-translate-router'
-import { TranslateModule, TranslatePipe, TranslateService } from '@ngx-translate/core'
-import { RouterLink } from '@angular/router'
+import { TranslatePipe, TranslateService } from '@ngx-translate/core'
+import { Router, RouterLink } from '@angular/router'
 import { UpperCasePipe } from '@angular/common'
+import { LocalizeRouterPipe } from '@gilsdav/ngx-translate-router'
 
 @Component({
     selector: 'app-footer',
@@ -11,17 +11,14 @@ import { UpperCasePipe } from '@angular/common'
     changeDetection: ChangeDetectionStrategy.OnPush,
     encapsulation: ViewEncapsulation.None,
     standalone: true,
-    imports: [TranslatePipe, TranslateModule, LocalizeRouterModule, RouterLink, UpperCasePipe]
+    imports: [TranslatePipe, RouterLink, UpperCasePipe, LocalizeRouterPipe]
 })
 export class FooterComponent {
 
-  constructor(
-    private readonly translate: TranslateService,
-    private readonly localizeRouter: LocalizeRouterService
-  ) { }
+  constructor(private readonly translate: TranslateService) { }
 
   changeLanguage(language: string): void {
-    this.localizeRouter.changeLanguage(language)
+    this.translate.use(language)
   }
 
   get currentYear(): number {
@@ -29,7 +26,7 @@ export class FooterComponent {
   }
 
   get culture(): string {
-    return this.translate.currentLang
+    return this.translate.getCurrentLang()
   }
 
   get languages(): string[] {

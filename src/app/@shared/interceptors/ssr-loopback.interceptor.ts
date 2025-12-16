@@ -26,6 +26,8 @@ export class SsrLoopbackInterceptor implements HttpInterceptor {
       : resolvedUrl.startsWith(url)
     );
 
+    console.log(isLocalRedirect, isPlatformServer(this.platformId))
+
     if (!isPlatformServer(this.platformId) || !isLocalRedirect) {
       return next.handle(req);
     }

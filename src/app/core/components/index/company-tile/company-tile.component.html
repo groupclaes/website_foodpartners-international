@@ -1,3 +1,4 @@
-<a [routerLink]="routerLink | localize">
-  <img [src]="companyLogo" [alt]="companyName | translate" [srcset]="srcSet" class="company-logo">
+<a [routerLink]="[name]  | localize">
+  <img [src]="companyLogo" [srcset]="srcSet" class="company-logo"
+    [alt]="`core.components.index.company-tile.${name}.name` | translate" />
 </a>

@@ -1,11 +1,9 @@
+import locales from '../../public/assets/locales.json'
+
 export const environment = {
   production: false,
   defaultLanguage: 'en',
-  supportedLanguages: [
-    'nl',
-    'fr',
-    'en'
-  ],
+  supportedLanguages: locales,
   publicBase: 'https://www.foodpartners-internaional.com',
   ssr: {
     localRedirects: [

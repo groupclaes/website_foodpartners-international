@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common'
+
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
 
 @Component({
@@ -6,8 +6,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
     templateUrl: './company-banner.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [CommonModule]
+    standalone: true
 })
 export class CompanyBannerComponent {
   @Input() company: string | undefined

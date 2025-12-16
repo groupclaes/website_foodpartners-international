@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
-import { TranslateModule } from '@ngx-translate/core'
+import { TranslatePipe } from '@ngx-translate/core'
 import { CompanySupplierComponent } from '../company-supplier/company-supplier.component'
 
 @Component({
@@ -8,8 +8,7 @@ import { CompanySupplierComponent } from '../company-supplier/company-supplier.c
     changeDetection: ChangeDetectionStrategy.OnPush,
     encapsulation: ViewEncapsulation.None,
     standalone: true,
-    imports: [TranslateModule, CompanySupplierComponent]
+    imports: [TranslatePipe, CompanySupplierComponent]
 })
 export class CompanySuppliersComponent {
-  constructor() { }
 }

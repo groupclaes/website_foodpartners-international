@@ -8,5 +8,5 @@ if (environment.production) {
   enableProdMode()
 }
 
-bootstrapApplication(App, config)
+await bootstrapApplication(App, config)
   .catch(err => console.error(err))

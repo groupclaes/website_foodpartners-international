@@ -1,6 +1,6 @@
+import { LocalizeRouterPipe } from '@gilsdav/ngx-translate-router';
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
 import { RouterLink } from '@angular/router'
-import { LocalizeRouterPipe } from '@irector/ngx-translate-router'
 
 @Component({
     selector: 'app-error-not-found',

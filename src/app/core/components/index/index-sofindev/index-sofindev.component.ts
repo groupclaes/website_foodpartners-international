@@ -4,9 +4,9 @@ import { TranslatePipe } from '@ngx-translate/core'
 @Component({
     selector: 'app-index-sofindev',
     templateUrl: './index-sofindev.component.html',
-    styles: [
-        ':host { display: block }'
-    ],
+    host: {
+      style: 'display: block'
+    },
     standalone: true,
     imports: [TranslatePipe]
 })

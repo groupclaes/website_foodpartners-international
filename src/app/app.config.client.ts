@@ -8,6 +8,7 @@ import { routingConfig } from './app.config.routing'
 const clientConfig: ApplicationConfig = {
   providers: [
     provideTranslateService({
+      defaultLanguage: environment.defaultLanguage,
       fallbackLang: environment.defaultLanguage,
       loader: provideTranslateHttpLoader()
     })

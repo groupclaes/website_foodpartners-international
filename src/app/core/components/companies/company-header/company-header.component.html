@@ -1,12 +1,12 @@
 <div class="container">
-  <h1 class="white-space-pre mt-4" translate>{{ `core.components.companies.company-header.${name}.title` }}</h1>
+  <h1 class="white-space-pre mt-4" >{{ `core.components.companies.company-header.${name}.title` | translate }}</h1>
   <div>
     @for (text of texts; track text) {
       <p>{{ text }}</p>
     }
     @if (link) {
       <a class="button" [href]="link" target="_blank">
-        <span translate>{{ `core.components.companies.company-header.${name}.cta` }}</span>
+        <span >{{  `core.components.companies.company-header.${name}.cta` | translate }}</span>
         <i class="fal fa-arrow-right"></i>
       </a>
     }

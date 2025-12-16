@@ -22,7 +22,7 @@ export class App implements OnInit {
     private readonly metaService: MetaService,
     @Inject(DOCUMENT) private readonly document: Document
   ) {
-    this.document.documentElement.lang = this.translateService.currentLang
+    this.document.documentElement.lang = this.translateService.getCurrentLang()
   }
 
   ngOnInit() {
@@ -53,8 +53,8 @@ export class App implements OnInit {
         // { title: string, description?: string }
         const { title, description, keywords, image } = event
         if (title && description && keywords && image) {
-          const tranlsations = this.translateService.instant([title, description, keywords, image])
-          this.metaService.apply(tranlsations[title], tranlsations[description], tranlsations[keywords], tranlsations[image])
+          const translations = this.translateService.instant([title, description, keywords, image])
+          this.metaService.apply(translations[title], translations[description], translations[keywords], translations[image])
         }
       })
   }

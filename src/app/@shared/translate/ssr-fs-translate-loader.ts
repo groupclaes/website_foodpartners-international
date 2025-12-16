@@ -1,10 +1,14 @@
+import { isMainModule } from "@angular/ssr/node";
 import { TranslateLoader, TranslationObject } from "@ngx-translate/core";
 import { readFileSync } from "node:fs";
-import path from "node:path";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { Observable, of } from "rxjs";
 import { environment } from "src/environments/environment";
 
-const I18N_FOLDER = path.resolve(process.cwd(), 'dist', 'website', 'browser', 'assets', 'i18n')
+const I18N_FOLDER = (isMainModule(import.meta.url))
+  ? resolve(dirname(fileURLToPath(import.meta.url)), '../browser', 'assets', 'i18n')
+  : 'public/assets/i18n'
 
 
 export class SsrFsTranslateLoader implements TranslateLoader {

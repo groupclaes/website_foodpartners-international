@@ -10,7 +10,11 @@ import { environment } from './environments/environment';
 import { getApplicationRoutes } from './server-sitemap';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { enableProdMode } from '@angular/core';
 
+if (environment.production) {
+  enableProdMode()
+}
 
 export async function app() {
   const fastify = await Fastify({

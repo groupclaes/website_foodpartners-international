@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
-import { TranslateModule, TranslateService } from '@ngx-translate/core'
+import { TranslatePipe, TranslateService } from '@ngx-translate/core'
 
 @Component({
     selector: 'app-company-fact',
@@ -7,7 +7,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core'
     changeDetection: ChangeDetectionStrategy.OnPush,
     encapsulation: ViewEncapsulation.None,
     standalone: true,
-    imports: [TranslateModule]
+    imports: [ TranslatePipe ]
 })
 export class CompanyFactComponent {
   @Input() public company: string | undefined
