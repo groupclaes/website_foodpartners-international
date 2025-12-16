@@ -23,7 +23,6 @@ export class CompanyHeaderComponent {
 
   get texts(): string[] {
     const arr = this.translate.instant(`core.components.companies.company-header.${this.name}.texts`)
-    if (arr instanceof Array) return arr
-    return [arr]
+    return Array.isArray(arr) ? arr : [arr]
   }
 }

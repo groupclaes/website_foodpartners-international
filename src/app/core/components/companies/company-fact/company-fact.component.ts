@@ -36,7 +36,6 @@ export class CompanyFactComponent {
 
   get texts(): string[] {
     const arr = this.translate.instant(`core.components.companies.company-fact.${this.name}.${this.company}`)
-    if (arr instanceof Array) return arr
-    return [arr]
+    return Array.isArray(arr) ? arr : [arr]
   }
 }

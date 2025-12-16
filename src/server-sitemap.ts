@@ -1,10 +1,10 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from 'node:fs';
 import { ISitemapRoute } from "@groupclaes/fastify-elastic/plugins/sitemap"
 
 import { environment } from "./environments/environment"
 import { isMainModule } from '@angular/ssr/node';
-import { dirname, resolve } from 'path';
-import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 interface ILanguageRouteMap {
   [language: string]: {

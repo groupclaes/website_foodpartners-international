@@ -131,7 +131,7 @@ const main = async function () {
 }
 
 if (isMainModule(import.meta.url)) {
-  main().catch((error) => {
+  await main().catch((error) => {
     console.error('Failed to start Fastify server', error)
     process.exit(1)
   })
