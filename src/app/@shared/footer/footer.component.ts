@@ -1,13 +1,17 @@
 import { environment } from 'src/environments/environment'
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core'
-import { LocalizeRouterService } from '@gilsdav/ngx-translate-router'
-import { TranslateService } from '@ngx-translate/core'
+import { LocalizeRouterModule, LocalizeRouterService } from '@irector/ngx-translate-router'
+import { TranslateModule, TranslateService } from '@ngx-translate/core'
+import { RouterLink } from '@angular/router'
+import { UpperCasePipe } from '@angular/common'
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-footer',
+    templateUrl: './footer.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: true,
+    imports: [TranslateModule, LocalizeRouterModule, RouterLink, UpperCasePipe]
 })
 export class FooterComponent implements OnInit {
 

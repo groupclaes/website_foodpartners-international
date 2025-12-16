@@ -1,10 +1,13 @@
+import { CommonModule } from '@angular/common'
 import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-company-banner',
-  templateUrl: './company-banner.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-banner',
+    templateUrl: './company-banner.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: true,
+    imports: [CommonModule]
 })
 export class CompanyBannerComponent implements OnInit {
   @Input() company: string | undefined

@@ -1,11 +1,18 @@
 export const environment = {
   production: false,
-  defaultLanguage: 'nl',
+  defaultLanguage: 'fr',
   supportedLanguages: [
     'nl',
     'fr',
     'en'
-  ]
+  ],
+  publicBase: 'https://www.foodpartners-internaional.com',
+  ssr: {
+    localRedirects: [
+      'http://localhost/assets/',
+      'http://localhost:4200/assets/'
+    ]
+  }
 }
 
-import 'zone.js/plugins/zone-error'  // Included with Angular CLI.
+// Included with Angular CLI.

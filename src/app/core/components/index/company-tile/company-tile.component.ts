@@ -1,9 +1,14 @@
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
+import { RouterLink } from '@angular/router'
+import { LocalizeRouterPipe } from '@irector/ngx-translate-router'
+import { TranslateModule } from '@ngx-translate/core'
 @Component({
-  selector: 'app-company-tile',
-  templateUrl: './company-tile.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-tile',
+    templateUrl: './company-tile.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: true,
+    imports: [RouterLink, LocalizeRouterPipe, TranslateModule]
 })
 export class CompanyTileComponent {
   @Input() name: string | undefined
