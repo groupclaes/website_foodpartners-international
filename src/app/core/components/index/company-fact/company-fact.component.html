@@ -1,5 +1,5 @@
 <div class="fact__placeholder">
-  <i class="fact__icon fal fa-3x fa-fw {{ factIcon }}"></i>
-  <h4 class="fact__value title_xl" [translate]="factValue"></h4>
-  <div class="fact__name" [translate]="factName"></div>
+  <i class="fact__icon fal fa-3x fa-fw {{ `core.components.index.company-fact.${name}.icon` | translate }}"></i>
+  <h4 class="fact__value title_xl">{{ `core.components.index.company-fact.${name}.value` | translate }}</h4>
+  <div class="fact__name">{{ `core.components.index.company-fact.${name}.name` | translate }}</div>
 </div>

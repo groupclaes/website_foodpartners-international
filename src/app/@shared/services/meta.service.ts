@@ -6,8 +6,8 @@ import { Meta, Title } from '@angular/platform-browser'
 })
 export class MetaService {
   constructor(
-    private title: Title,
-    private meta: Meta
+    private readonly title: Title,
+    private readonly meta: Meta
   ) { }
 
   apply(title: string, description?: string, keywords?: string, image?: string) {

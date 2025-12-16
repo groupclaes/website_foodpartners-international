@@ -1,11 +1,9 @@
-import { NgModule } from '@angular/core'
-import { NoPreloading, Route, RouterModule } from '@angular/router'
+import { Routes } from '@angular/router'
 
-
-export const routes: Route[] = [{
+export const routes: Routes = [{
   path: '',
   pathMatch: 'full',
-  loadChildren: () => import('./pages/index/index.module').then(m => m.IndexModule),
+  loadComponent: () => import('./pages/index/index.component').then(m => m.IndexComponent),
   data: {
     title: 'pages.index.title',
     description: 'pages.index.description',
@@ -14,7 +12,7 @@ export const routes: Route[] = [{
   }
 }, {
   path: 'brabopak',
-  loadChildren: () => import('./pages/brabopak/brabopak.module').then(m => m.BrabopakModule),
+  loadComponent: () => import('./pages/brabopak/brabopak.component').then(m => m.BrabopakComponent),
   data: {
     title: 'pages.brabopak.title',
     description: 'pages.brabopak.description',
@@ -23,7 +21,7 @@ export const routes: Route[] = [{
   }
 }, {
   path: 'claes-food-projects',
-  loadChildren: () => import('./pages/claes-food-projects/claes-food-projects.module').then(m => m.ClaesFoodProjectsModule),
+  loadComponent: () => import('./pages/claes-food-projects/claes-food-projects.component').then(m => m.ClaesFoodProjectsComponent),
   data: {
     title: 'pages.claes-food-projects.title',
     description: 'pages.claes-food-projects.description',
@@ -32,7 +30,7 @@ export const routes: Route[] = [{
   }
 }, {
   path: 'weidelco',
-  loadChildren: () => import('./pages/weidelco/weidelco.module').then(m => m.WeidelcoModule),
+  loadComponent: () => import('./pages/weidelco/weidelco.component').then(m => m.WeidelcoComponent),
   data: {
     title: 'pages.weidelco.title',
     description: 'pages.weidelco.description',
@@ -41,7 +39,7 @@ export const routes: Route[] = [{
   }
 }, {
   path: 'dumortier',
-  loadChildren: () => import('./pages/dumortier/dumortier.module').then(m => m.DumortierModule),
+  loadComponent: () => import('./pages/dumortier/dumortier.component').then(m => m.DumortierComponent),
   data: {
     title: 'pages.dumortier.title',
     description: 'pages.dumortier.description',
@@ -50,20 +48,5 @@ export const routes: Route[] = [{
   }
 }, {
   path: '**',
-  loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
+  loadComponent: () => import('./pages/errors/error-404/error-not-found.component').then(m => m.ErrorNotFoundComponent)
 }]
-@NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      preloadingStrategy: NoPreloading,
-      initialNavigation: 'enabledNonBlocking',
-      onSameUrlNavigation: 'reload',
-      scrollPositionRestoration: 'enabled',
-      // enableTracing: true
-    }),
-  ],
-  exports: [
-    RouterModule
-  ]
-})
-export class AppRoutingModule { }

@@ -1,26 +1,26 @@
 <header>
   <div class="header_primary container">
-    <a [routerLink]="['/'] | localize" class="logo">
+    <a [routerLink]="['/']  | localize" class="logo">
       <img class="logo" src="/assets/images/logo_480x176.svg" style="height:100%" alt="Foodpartners International logo">
     </a>
 
     <nav>
-      <a [routerLink]="['/'] | localize" [queryParams]="{section: 'index-about'}"
-        translate="shared.header.primary.nav.about"></a>
-      <a [routerLink]="['/'] | localize" [queryParams]="{section: 'index-sofindev'}"
-        translate="shared.header.primary.nav.contact"></a>
+      <a [routerLink]="['/']  | localize" [queryParams]="{section: 'index-about'}"
+        >{{ 'shared.header.primary.nav.about' | translate }}</a>
+      <a [routerLink]="['/']  | localize" [queryParams]="{section: 'index-sofindev'}"
+        >{{ 'shared.header.primary.nav.contact' | translate }}</a>
     </nav>
   </div>
   <div class="header_secondary">
     <nav class="container">
-      <a [routerLink]="['/weidelco'] | localize" routerLinkActive="active"
-        translate="shared.header.primary.companies.company-1"></a>
-      <a [routerLink]="['/claes-food-projects'] | localize" routerLinkActive="active"
-        translate="shared.header.primary.companies.company-2"></a>
-      <a [routerLink]="['/brabopak'] | localize" routerLinkActive="active"
-        translate="shared.header.primary.companies.company-3"></a>
-      <a [routerLink]="['/dumortier'] | localize" routerLinkActive="active"
-        translate="shared.header.primary.companies.company-4"></a>
+      <a [routerLink]="['/weidelco']  | localize" routerLinkActive="active"
+        >{{ 'shared.header.primary.companies.company-1' | translate }}</a>
+      <a [routerLink]="['/claes-food-projects']  | localize" routerLinkActive="active"
+        >{{ 'shared.header.primary.companies.company-2' | translate }}</a>
+      <a [routerLink]="['/brabopak']  | localize" routerLinkActive="active"
+        >{{ 'shared.header.primary.companies.company-3' | translate }}</a>
+      <a [routerLink]="['/dumortier']  | localize" routerLinkActive="active"
+        >{{ 'shared.header.primary.companies.company-4' | translate }}</a>
     </nav>
   </div>
 </header>

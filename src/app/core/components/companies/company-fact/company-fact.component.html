@@ -1,9 +1,11 @@
 <div class="container">
   <h2 class="white-space-pre mt-4">
     <i class="fal fa-fw {{ icon }}"></i>
-    {{ 'core.components.companies.company-fact.' + name + '.title' | translate }}
+    <span >{{ `core.components.companies.company-fact.${name}.title` | translate }}</span>
   </h2>
   <div>
-    <p *ngFor="let text of texts">{{text}}</p>
+    @for (text of texts; track text) {
+      <p>{{ text }}</p>
+    }
   </div>
 </div>

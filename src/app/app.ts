@@ -1,26 +1,28 @@
-import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnInit, ViewEncapsulation } from '@angular/core'
+import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnInit, ViewEncapsulation, DOCUMENT } from '@angular/core'
+import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/router'
 import { TranslateService } from '@ngx-translate/core'
-import { DOCUMENT } from '@angular/common'
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router'
 import { filter, map, mergeMap } from 'rxjs'
+import { FooterComponent } from './@shared/footer/footer.component'
+import { HeaderComponent } from './@shared/header/header.component'
 import { MetaService } from './@shared/services/meta.service'
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './app.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  imports: [RouterOutlet, HeaderComponent, FooterComponent]
 })
-export class AppComponent implements OnInit {
+export class App implements OnInit {
   constructor(
-    private _elementRef: ElementRef,
-    private translateService: TranslateService,
-    private router: Router,
-    private activatedRoute: ActivatedRoute,
-    private metaService: MetaService,
-    @Inject(DOCUMENT) private document: Document
+    private readonly _elementRef: ElementRef,
+    private readonly translateService: TranslateService,
+    private readonly router: Router,
+    private readonly activatedRoute: ActivatedRoute,
+    private readonly metaService: MetaService,
+    @Inject(DOCUMENT) private readonly document: Document
   ) {
-    this.document.documentElement.lang = this.translateService.currentLang
+    this.document.documentElement.lang = this.translateService.getCurrentLang()
   }
 
   ngOnInit() {
@@ -51,8 +53,8 @@ export class AppComponent implements OnInit {
         // { title: string, description?: string }
         const { title, description, keywords, image } = event
         if (title && description && keywords && image) {
-          const tranlsations = this.translateService.instant([title, description, keywords, image])
-          this.metaService.apply(tranlsations[title], tranlsations[description], tranlsations[keywords], tranlsations[image])
+          const translations = this.translateService.instant([title, description, keywords, image])
+          this.metaService.apply(translations[title], translations[description], translations[keywords], translations[image])
         }
       })
   }

@@ -1,18 +1,15 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core'
+
+import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core'
 
 @Component({
-  selector: 'app-company-banner',
-  templateUrl: './company-banner.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-company-banner',
+    templateUrl: './company-banner.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None,
+    standalone: true
 })
-export class CompanyBannerComponent implements OnInit {
+export class CompanyBannerComponent {
   @Input() company: string | undefined
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   get banner(): string {
     return `/assets/images/banner-${this.company}.webp`

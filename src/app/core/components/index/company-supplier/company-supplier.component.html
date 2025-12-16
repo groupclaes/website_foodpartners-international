@@ -1,3 +1,6 @@
 <a style="pointer-events:none">
-  <img [src]="supplierLogo" [alt]="supplierName | translate" [title]="supplierName | translate" class="supplier-logo">
+  <img [src]="supplierLogo" class="supplier-logo"
+    [alt]="`core.components.index.company-supplier.${name}.name` | translate"
+    [title]="`core.components.index.company-supplier.${name}.name` | translate"
+  />
 </a>

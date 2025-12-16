@@ -11,9 +11,9 @@ export class BrowserLanguageService {
   userLang: string | null = null
 
   constructor(
-    @Inject(PLATFORM_ID) private platformId: any,
+    @Inject(PLATFORM_ID) private readonly platformId: any,
     @Optional()
-    @Inject(REQUEST) private request: Request
+    @Inject(REQUEST) private readonly request: Request
   ) {
     if (isPlatformBrowser(this.platformId)) {
       this.userLang = window.navigator.language
