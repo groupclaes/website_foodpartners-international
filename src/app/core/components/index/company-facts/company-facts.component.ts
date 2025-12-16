@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core'
+import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core'
 import { CompanyFactComponent } from '../company-fact/company-fact.component'
 
 @Component({
@@ -9,11 +9,4 @@ import { CompanyFactComponent } from '../company-fact/company-fact.component'
     standalone: true,
     imports: [CompanyFactComponent]
 })
-export class CompanyFactsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class CompanyFactsComponent { }
