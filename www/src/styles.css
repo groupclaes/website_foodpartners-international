@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss';
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0
+}
+
+p {
+  margin: 1rem auto
+}
+
+body, html {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 100%;
+  -moz-osx-font-smoothing: auto;
+}

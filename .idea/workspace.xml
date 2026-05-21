@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60e15846-9416-48aa-a893-e397c46226c2" name="Changes" comment="Constructione2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/website_foodpartners-international.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.postcssrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.vscode/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/_routes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.config.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.routes.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/app/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/tools/copy-files.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/worker-configuration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/wrangler.jsonc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="130" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JamieVangeysel"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:groupclaes/website_foodpartners-international.git",
+    "accountId": "7e37c695-9140-41f7-85a6-a9bb5422da2b"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3E2OquZJAk5m7H6R63s49Qd8hzd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "construction-cf",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/jamievangeysel/development/@groupclaes/website_foodpartners-international/www/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e15846-9416-48aa-a893-e397c46226c2" name="Changes" comment="" />
+      <created>1779373393131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779373393131</updated>
+      <workItem from="1779373394200" duration="2487000" />
+    </task>
+    <task id="LOCAL-00001" summary="Constructione">
+      <option name="closed" value="true" />
+      <created>1779375545621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779375545621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Constructione" />
+    <MESSAGE value="Constructione2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructione2" />
+  </component>
+</project>
