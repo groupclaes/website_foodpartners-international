@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e15846-9416-48aa-a893-e397c46226c2" name="Changes" comment="Constructione2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/website_foodpartners-international.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.postcssrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.vscode/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/_routes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.config.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.routes.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/app/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/main.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/tools/copy-files.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/worker-configuration.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/wrangler.jsonc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +24,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JamieVangeysel"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JamieVangeysel&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:groupclaes/website_foodpartners-international.git",
-    "accountId": "7e37c695-9140-41f7-85a6-a9bb5422da2b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:groupclaes/website_foodpartners-international.git&quot;,
+    &quot;accountId&quot;: &quot;7e37c695-9140-41f7-85a6-a9bb5422da2b&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3E2OquZJAk5m7H6R63s49Qd8hzd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -101,7 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/jamievangeysel/development/@groupclaes/website_foodpartners-international/www/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
