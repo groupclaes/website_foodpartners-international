@@ -4,7 +4,8 @@
     "weidelco": "weidelco",
     "claes-food-projects": "claes-food-projects",
     "brabopak": "brabopak",
-    "dumortier": "dumortier"
+    "dumortier": "dumortier",
+    "system-b": "system-b"
   },
   "pages": {
     "index": {
@@ -29,13 +30,19 @@
       "title": "Dumortier, food wholesaler with 100% quality",
       "description": "For more than 50 years, Dumortier has been an established food wholesaler and supplier of all kinds of necessities to butchers, caterers, supermarkets and individuals. The range includes casings, herbs, marinades, packaging, knives and maintenance products. In short, the very best products at a competitive price.",
       "keywords": "Wholesale, B2B, supplier, supplies, butchery, caterer, food specialist, France, Roncq, Arras, casings, herbs, marinades, packaging, knives, maintenance products",
-      "image": "/assets/images/banner-dumortier.png"
+      "image": "/assets/images/banner-dumortier.jpg"
     },
     "weidelco": {
       "title": "Weidelco, food partners in the Netherlands",
       "description": " artificial casings and equipment for the food sector in the Netherlands.",
       "keywords": " artificial casings, equipment, food industry, Netherlands, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
+    },
+    "system-b": {
+      "title": "SYSTEM B | Machines and tools for food professionals",
+      "description": "SYSTEM B designs and distributes machines and tools for butchers and food professionals, with its\nown concepts: efficient, reliable and developed in France. The company also offers a complementary\nrange of consumables, including natural casings, spices, marinades and accessories.",
+      "keywords": "wholesaler, B2B, supplier, supplies, material, butcher, butcher shop, caterer, food professional,\nFrance, Changé, casings, spices, marinades, equipment, machine, MyBroch’, Wheelinker, Clic!, TOD,\nPAD, Rolly",
+      "image": "/assets/images/banner-system-b.jpeg"
     },
     "contact": {
       "title": "Contact Foodpartners International",
@@ -52,7 +59,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "About the group",
@@ -66,7 +74,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "About the group",
@@ -111,7 +120,7 @@
         },
         "index-sofindev": {
           "title": "With the financial strength of Sofindev",
-          "text": "The expansion of this European group with strong ambitions and pronounced growth strength is made possible thanks to investment company Sofindev Private Equity Partners.\n\nWant to know more about the further growth plans and the strategic potential? Feel free to contact the experts of Sofindev for more information.",
+          "text": "The expansion of this European group with strong ambitions and pronounced growth strength is made possible thanks to investment company Sofindev Private Equity Partners.  Want to know more about the further growth plans and the strategic potential? Feel free to contact the experts of Sofindev for more information.",
           "cta": "More about Sofindev"
         },
         "index-facts": {
@@ -139,22 +148,25 @@
           },
           "dumortier": {
             "name": "Dumortier"
+          },
+          "system-b": {
+            "name": "SYSTEM B"
           }
         },
         "company-fact": {
           "fact-1": {
             "name": "employees",
-            "value": "> 385",
+            "value": "> 426",
             "icon": "fa-users"
           },
           "fact-2": {
             "name": "locations in 3 countries",
-            "value": "7",
+            "value": "8",
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "turnover (in 2024)",
-            "value": "> 173,46M EUR",
+            "name": "turnover (in 2025)",
+            "value": "> 187,71M EUR",
             "icon": "fa-analytics"
           }
         }
@@ -209,6 +221,16 @@
             ],
             "link": "https://www.epices-dumortier.fr",
             "cta": "More about Dumortier"
+          },
+          "system-b": {
+            "title": "Who is SYSTEM B?",
+            "texts": [
+              "SYSTEM B supports food professionals by developing and marketing innovative solutions designed to optimise their day-to-day production. Based in the Pays de la Loire region, this family-owned company offers a comprehensive range of patented machines, tools, casings, spices, marinades and consumables. SYSTEM B supplies numerous professional customers throughout France.",
+              "Renowned for its innovative approach, SYSTEM B designs and develops its own machines and tools, including MyBroch’ for producing skewers, Wheelinker sausage-making machines, Rolly meatball machines, as well as Clic!, TOD and PAD.",
+              "Beyond its products, SYSTEM B also positions itself as a trendsetter. By combining innovation, recipe development, demonstrations and on-site support, the company helps professionals develop original concepts that appeal to consumers and create added value."
+            ],
+            "link": "https://systemb.eu/?utm_source=fpi",
+            "cta": "More about SYSTEM B"
           }
         },
         "company-fact": {
@@ -225,6 +247,9 @@
             ],
             "dumortier": [
               "1 branch in France (region of Nord-Pas-de-Calais)"
+            ],
+            "system-b": [
+              "1 branch in Changé, France"
             ]
           },
           "management": {
@@ -240,6 +265,9 @@
             ],
             "dumortier": [
               "Thierry Dansette"
+            ],
+            "system-b": [
+              "Jérémy Beucher, Charly Beucher & Anthony Chevrier"
             ]
           },
           "founding": {
@@ -255,21 +283,27 @@
             ],
             "dumortier": [
               "1960"
+            ],
+            "system-b": [
+              "2015"
             ]
           },
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 182 employees"
+              "> 181 employees"
             ],
             "brabopak": [
-              "> 23 employees"
+              "> 22 employees"
             ],
             "weidelco": [
-              "> 182 employees"
+              "> 175 employees"
             ],
             "dumortier": [
-              "> 20 employees"
+              "> 18 employees"
+            ],
+            "system-b": [
+              "> 30 employees"
             ]
           }
         }

@@ -49,6 +49,15 @@ export const routes: Route[] = [{
     image: 'pages.dumortier.image'
   }
 }, {
+  path: 'system-b',
+  loadChildren: () => import('./pages/system-b/system-b.module').then(m => m.SystemBModule),
+  data: {
+    title: 'pages.system-b.title',
+    description: 'pages.system-b.description',
+    keywords: 'pages.system-b.keywords',
+    image: 'pages.system-b.image'
+  }
+}, {
   path: '**',
   loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule)
 }]

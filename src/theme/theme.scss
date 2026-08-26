@@ -95,7 +95,7 @@ h5,
 .title_s {
   margin-top: .375rem;
   margin-bottom: .25rem;
-  font-size: calc(14px + 4 *(100vw - 350px) / 1570);
+  font-size: calc(14px + 4 * (100vw - 350px) / 1570);
 
   @media screen and (min-width: 1920px) {
     font-size: calc(18px + 5 * (100vw - 1920px) / 580)
@@ -299,7 +299,7 @@ app-footer {
         }
       }
 
-      @media screen and (min-width:60rem) {
+      @media screen and (min-width: 60rem) {
         justify-content: space-between;
       }
 
@@ -577,7 +577,8 @@ app-company-banner {
 app-brabopak,
 app-claes-food-projects,
 app-dumortier,
-app-weidelco {
+app-weidelco,
+app-system-b {
   display: flex;
 
   app-company-header {
@@ -625,14 +626,14 @@ app-company-suppliers {
   align-items: center;
   flex-direction: column;
 
-  &>div {
+  & > div {
     width: 15rem;
 
     h3 {
       text-align: center
     }
 
-    &+div {
+    & + div {
       margin-top: 2rem
     }
   }
@@ -642,10 +643,10 @@ app-company-suppliers {
     flex-direction: row;
     align-items: flex-start;
 
-    &>div {
+    & > div {
       // width: 18rem;
 
-      &+div {
+      & + div {
         margin-left: 2rem;
         margin-top: 0
       }
@@ -680,8 +681,8 @@ app-company-suppliers {
       }
     }
 
-    &+app-company-tile,
-    &+app-company-supplier {
+    & + app-company-tile,
+    & + app-company-supplier {
       margin-top: 2rem
     }
   }
@@ -709,7 +710,7 @@ app-company-facts {
     border-radius: 9999px;
     margin-bottom: 2rem;
 
-    &+app-company-fact {
+    & + app-company-fact {
       margin-left: .5rem
     }
 
@@ -718,7 +719,7 @@ app-company-facts {
       height: 16rem;
       margin-bottom: 0;
 
-      &+app-company-fact {
+      & + app-company-fact {
         margin-left: 1rem
       }
     }
@@ -727,7 +728,7 @@ app-company-facts {
       width: 18rem;
       height: 18rem;
 
-      &+app-company-fact {
+      & + app-company-fact {
         margin-left: 2rem
       }
     }
@@ -736,7 +737,7 @@ app-company-facts {
       width: 22rem;
       height: 22rem;
 
-      &+app-company-fact {
+      & + app-company-fact {
         margin-left: 4rem
       }
     }

@@ -4,7 +4,8 @@
     "weidelco": "weidelco",
     "claes-food-projects": "claes-food-projects",
     "brabopak": "brabopak",
-    "dumortier": "dumortier"
+    "dumortier": "dumortier",
+    "system-b": "system-b"
   },
   "pages": {
     "index": {
@@ -29,13 +30,19 @@
       "title": "Dumortier, voedingsgroothandel met 100% kwaliteit",
       "description": "Dumortier is al meer dan 50 jaar een gevestigde voedingsgroothandel en toeleverancier van allerlei benodigdheden aan slagers, traiteurs, supermarkten en particulieren. Het gamma omvat o.a. darmen, kruiden, marinades, verpakkingen, messen en onderhoudsproducten. Kortom, de allerbeste producten tegen een scherpe prijs.",
       "keywords": "Groothandel, B2B, toeleverancier, benodigdheden, slagerij, traiteur, voedingsspecialist, Frankrijk, Roncq, Arras, darmen, kruiden, marinades, verpakkingen, messen, onderhoudsproducten",
-      "image": "/assets/images/banner-dumortier.png"
+      "image": "/assets/images/banner-dumortier.jpg"
     },
     "weidelco": {
       "title": "Weidelco, foodpartners van Nederland",
       "description": "Als groothandel verdeelt Weidelco een totaalassortiment van verpakkingen, specerijen, reinigingsmiddelen, netten, kunstdarmen en apparatuur voor de foodbranche in Nederland.",
       "keywords": "groothandel, winkel, B2B, totaalleverancier, versondernemer, verpakkingen, kruiden, reinigingsmiddelen, netten, kunstdarmen, apparatuur, foodindustrie, Nederland, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
+    },
+    "system-b": {
+      "title": "SYSTEM B | Machines en tools voor food professionals",
+      "description": "SYSTEM B ontwerpt en verdeelt toestellen en hulpmiddelen voor slagers en food professionals met eigen concepten: efficiënt, betrouwbaar en ontwikkeld in Frankrijk. Daarnaast biedt het bedrijf een aanvullend assortiment verbruiksgoederen aan, waaronder natuurdarmen, kruiden, marinades en accessoires.",
+      "keywords": "groothandel, winkel, B2B, totaalleverancier, versondernemer, verpakkingen, kruiden, reinigingsmiddelen, netten, kunstdarmen, apparatuur, foodindustrie, Nederland, Leeuwarden, Sittard, Gilze, Zwolle",
+      "image": "/assets/images/banner-system-b.jpeg"
     },
     "contact": {
       "title": "Contacteer Foodpartners International",
@@ -52,7 +59,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "Over de groep",
@@ -66,7 +74,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "Over de groep",
@@ -111,7 +120,7 @@
         },
         "index-sofindev": {
           "title": "Met de financiële kracht van Sofindev",
-          "text": "De uitbouw van deze Europese groep met sterke ambities en uitgesproken groeikracht wordt mede mogelijk gemaakt dankzij investeringsmaatschappij Sofindev Private Equity Partners.\n\nMeer weten over de verdere groeiplannen en het strategische potentieel? Neem gerust contact op met de experts van Sofindev voor vrijblijvende informatie.",
+          "text": "De uitbouw van deze Europese groep met sterke ambities en uitgesproken groeikracht wordt mede mogelijk gemaakt dankzij investeringsmaatschappij Sofindev Private Equity Partners.  Meer weten over de verdere groeiplannen en het strategische potentieel? Neem gerust contact op met de experts van Sofindev voor vrijblijvende informatie.",
           "cta": "Meer over Sofindev"
         },
         "index-facts": {
@@ -124,37 +133,35 @@
         },
         "company-tile": {
           "weidelco": {
-            "name": "Weidelco",
-            "url": "",
-            "logo": ""
+            "name": "Weidelco"
           },
           "claes-food-projects": {
-            "name": "Claes Food Projects",
-            "logo": ""
+            "name": "Claes Food Projects"
           },
           "brabopak": {
-            "name": "Brabopak",
-            "logo": ""
+            "name": "Brabopak"
           },
           "dumortier": {
-            "name": "Dumortier",
-            "logo": ""
+            "name": "Dumortier"
+          },
+          "system-b": {
+            "name": "SYSTEM B"
           }
         },
         "company-fact": {
           "fact-1": {
             "name": "medewerkers in dienst",
-            "value": "> 407",
+            "value": "> 426",
             "icon": "fa-users"
           },
           "fact-2": {
             "name": "locaties in 3 landen",
-            "value": "7",
+            "value": "8",
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "omzet (in 2024)",
-            "value": "> 173,46M EUR",
+            "name": "omzet (in 2025)",
+            "value": "> 187,71M EUR",
             "icon": "fa-analytics"
           }
         },
@@ -213,6 +220,16 @@
             ],
             "link": "https://www.epices-dumortier.fr",
             "cta": "Meer over Dumortier"
+          },
+          "system-b": {
+            "title": "Wie is SYSTEM B?",
+            "texts": [
+              "SYSTEM B ondersteunt professionals in de voedingssector met de ontwikkeling en verkoop van innovatieve oplossingen die hun dagelijkse productie helpen optimaliseren. Het familiebedrijf, gevestigd in de regio Pays de la Loire, biedt een compleet assortiment aan met gepatenteerde machines, hulpmiddelen, darmen, kruiden, marinades en diverse verbruiksgoederen. SYSTEM B levert aan tal van professionele klanten in heel Frankrijk.",
+              "SYSTEM B staat bekend om zijn innovatieve aanpak en ontwikkelt zijn machines en hulpmiddelen volledig in eigen beheer. Tot het assortiment behoren onder meer de MyBroch’ brochettemachine, Wheelinker worstensnijder, Rolly balletjesmachine en de vormtools Clic!, TOD en PAD.",
+              "Tegelijk doet SYSTEM B méér dan alleen producten aanbieden. Het bedrijf profileert zich ook als trendsetter. Door innovatie te combineren met receptontwikkeling, demonstraties en praktische begeleiding op het terrein helpt SYSTEM B professionals om originele concepten te ontwikkelen die consumenten aanspreken én toegevoegde waarde creëren."
+            ],
+            "link": "https://systemb.eu/?utm_source=fpi",
+            "cta": "Meer over SYSTEM B"
           }
         },
         "company-fact": {
@@ -229,6 +246,9 @@
             ],
             "dumortier": [
               "1 vestiging in Roncq, Frankrijk (regio Nord-Pas-de-Calais)"
+            ],
+            "system-b": [
+              "1 vestiging in Changé, Frankrijk"
             ]
           },
           "management": {
@@ -244,6 +264,9 @@
             ],
             "dumortier": [
               "Thierry Dansette"
+            ],
+            "system-b": [
+              "Jérémy Beucher, Charly Beucher & Anthony Chevrier"
             ]
           },
           "founding": {
@@ -259,21 +282,27 @@
             ],
             "dumortier": [
               "1960"
+            ],
+            "system-b": [
+              "2015"
             ]
           },
           "team": {
             "title": "Team",
             "claes-food-projects": [
-              "> 182 medewerkers in dienst"
+              "> 181 medewerkers in dienst"
             ],
             "brabopak": [
-              "> 23 medewerkers in dienst"
+              "> 22 medewerkers in dienst"
             ],
             "weidelco": [
-              "> 182 medewerkers in dienst"
+              "> 175 medewerkers in dienst"
             ],
             "dumortier": [
-              "> 20 medewerkers in dienst"
+              "> 18 medewerkers in dienst"
+            ],
+            "system-b": [
+              "> 30 medewerkers in dienst"
             ]
           }
         }

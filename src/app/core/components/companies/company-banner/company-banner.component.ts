@@ -9,12 +9,18 @@ import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } 
 export class CompanyBannerComponent implements OnInit {
   @Input() company: string | undefined
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
   get banner(): string {
+    if (this.company === 'dumortier') {
+      return `/assets/images/banner-${this.company}.jpg`
+    } else if (this.company === 'system-b') {
+      return `/assets/images/banner-${this.company}.jpeg`
+    }
     return `/assets/images/banner-${this.company}.webp`
   }
 

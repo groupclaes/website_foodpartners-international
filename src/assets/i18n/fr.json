@@ -4,7 +4,8 @@
     "weidelco": "weidelco",
     "claes-food-projects": "claes-food-projects",
     "brabopak": "brabopak",
-    "dumortier": "dumortier"
+    "dumortier": "dumortier",
+    "system-b": "system-b"
   },
   "pages": {
     "index": {
@@ -29,13 +30,19 @@
       "title": "Dumortier, grossiste alimentaire avec 100% de qualité",
       "description": "Depuis plus de 50 ans, Dumortier est un grossiste alimentaire établi et un fournisseur de toutes sortes de fournitures pour les bouchers, les traiteurs, les supermarchés et les particuliers. La gamme comprend des boyaux, des herbes, des marinades, des emballages, des couteaux et des produits d'entretien. En bref, les meilleurs produits à un prix compétitif.",
       "keywords": "commerce de gros, B2B, fournisseur, fournitures, boucherie, traiteur, spécialiste de l'alimentation, France, Roncq, Arras, boyaux, épices, marinades, emballages, couteaux, produits d'entretien",
-      "image": "/assets/images/banner-dumortier.png"
+      "image": "/assets/images/banner-dumortier.jpg"
     },
     "weidelco": {
       "title": "Weidelco, partenaires alimentaires des Pays-Bas",
       "description": "En tant que grossiste, Weidelco distribue une gamme complète d'emballages, d'épices, de produits de nettoyage, de filets, de boyaux artificiels et d'équipements pour l'industrie alimentaire aux Pays- Bas.",
       "keywords": "grossiste, magasin, B2B, fournisseur total, entrepreneur en produits frais, emballages, épices, produits de nettoyage, filets, boyaux artificiels, équipement, industrie alimentaire, Pays-Bas, Leeuwarden, Sittard, Gilze, Zwolle",
       "image": "/assets/images/banner-weidelco.webp"
+    },
+    "system-b": {
+      "title": "SYSTEM B | Machines et outils pour les professionnels de la boucherie",
+      "description": "SYSTEM B conçoit et distribue des machines et outils pour bouchers et professionnels de\nl’alimentation : efficaces, fiables et développés en France. L’entreprise propose également une\ngamme complémentaire de consommables, notamment des boyaux naturels, des épices, des\nmarinades et des accessoires.",
+      "keywords": "grossiste, B2B, fournisseur, matériel, boucherie, traiteur, métier de bouche, France, Changé, boyaux,\népices, marinades, machine à saucisse, MyBroch’, Wheelinker, Clic!, TOD, PAD, Rolly",
+      "image": "/assets/images/banner-system-b.jpeg"
     },
     "contact": {
       "title": "Contactez Foodpartners International",
@@ -52,7 +59,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "À propos du groupe",
@@ -66,7 +74,8 @@
           "company-1": "Weidelco",
           "company-2": "Claes Food Projects",
           "company-3": "Brabopak",
-          "company-4": "Dumortier"
+          "company-4": "Dumortier",
+          "company-5": "SYSTEM B"
         },
         "nav": {
           "about": "À propos du groupe",
@@ -111,7 +120,7 @@
         },
         "index-sofindev": {
           "title": "Avec la puissance financière de Sofindev",
-          "text": "L'expansion de ce groupe européen aux ambitions fortes et à la croissance prononcée est rendue possible grâce à la société d'investissement Sofindev Private Equity Partners.\n\nVous voulez en savoir plus sur les plans de croissance futurs et le potentiel stratégique ? N'hésitez pas à contacter les experts de Sofindev pour plus d'informations.",
+          "text": "L'expansion de ce groupe européen aux ambitions fortes et à la croissance prononcée est rendue possible grâce à la société d'investissement Sofindev Private Equity Partners.  Vous voulez en savoir plus sur les plans de croissance futurs et le potentiel stratégique ? N'hésitez pas à contacter les experts de Sofindev pour plus d'informations.",
           "cta": "En savoir plus sur Sofindev"
         },
         "index-facts": {
@@ -139,23 +148,26 @@
           },
           "dumortier": {
             "name": "Dumortier"
+          },
+          "system-b": {
+            "name": "SYSTEM B"
           }
         },
         "company-facts": {},
         "company-fact": {
           "fact-1": {
             "name": "employés",
-            "value": "> 385",
+            "value": "> 426",
             "icon": "fa-users"
           },
           "fact-2": {
             "name": "localités dans 3 pays",
-            "value": "7",
+            "value": "8",
             "icon": "fa-globe-europe"
           },
           "fact-3": {
-            "name": "chiffre d'affaires (en 2024)",
-            "value": "> 173,46M EUR",
+            "name": "chiffre d'affaires (en 2025)",
+            "value": "> 187,71M EUR",
             "icon": "fa-analytics"
           }
         }
@@ -211,6 +223,16 @@
             ],
             "link": "https://www.epices-dumortier.fr",
             "cta": "En savoir plus sur Dumortier"
+          },
+          "system-b": {
+            "title": "Qui est SYSTEM B ?",
+            "texts": [
+              "SYSTEM B accompagne les professionnels des métiers de bouche en développant et en commercialisant des solutions innovantes destinées à optimiser leur production au quotidien. Entreprise familiale basée dans les Pays de la Loire, elle propose une offre complète comprenant des machines brevetées, des outils, des boyaux, des épices, des marinades ainsi qu'une gamme de consommables. SYSTEM B livre à de nombreux clients partout en France.",
+              "Reconnue pour sa capacité d'innovation, SYSTEM B conçoit ses propres machines et outils, parmi lesquels MyBroch' - machine à brochettes, Wheelinker - machines à saucisses, Rolly machines à boulettes, Clic!, TOD ou encore PAD.",
+              "Au-delà de ses produits, SYSTEM B se positionne comme un créateur de tendance. En associant innovation, création de recettes, démonstrations et accompagnement terrain, l'entreprise aide les professionnels à développer des offres originales, attractives pour les consommateurs et génératrices de valeur."
+            ],
+            "link": "https://systemb.eu/?utm_source=fpi",
+            "cta": "En savoir plus sur SYSTEM B"
           }
         },
         "company-fact": {
@@ -227,6 +249,9 @@
             ],
             "dumortier": [
               "1 succursale à Roncq, France (region Nord-Pas-de-Calais)"
+            ],
+            "system-b": [
+              "1 succursale à Changé, France"
             ]
           },
           "management": {
@@ -242,6 +267,9 @@
             ],
             "dumortier": [
               "Thierry Dansette"
+            ],
+            "system-b": [
+              "Jérémy Beucher, Charly Beucher & Anthony Chevrier"
             ]
           },
           "founding": {
@@ -257,21 +285,27 @@
             ],
             "dumortier": [
               "1960"
+            ],
+            "system-b": [
+              "2015"
             ]
           },
           "team": {
             "title": "Équipe",
             "claes-food-projects": [
-              "> 182 employés"
+              "> 181 employés"
             ],
             "brabopak": [
-              "> 23 employés"
+              "> 22 employés"
             ],
             "weidelco": [
-              "> 182 employés"
+              "> 175 employés"
             ],
             "dumortier": [
-              "> 20 employés"
+              "> 18 employés"
+            ],
+            "system-b": [
+              "> 30 employés"
             ]
           }
         }
